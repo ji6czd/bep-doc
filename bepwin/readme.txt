@@ -1,8 +1,8 @@
        Bilingual Emacspeak Platform Windows版インストールの手引き
 Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2001/12/27 06:16:23 $
-$Revision: 1.11 $
+最終更新日:$Date: 2001/12/27 11:11:52 $
+$Revision: 1.12 $
 
 目次
 0 はじめに
