@@ -1,8 +1,8 @@
        Bilingual Emacspeak Platform Windows版インストールの手引き
 Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2001/12/27 11:11:52 $
-$Revision: 1.12 $
+最終更新日:$Date: 2001/12/27 11:13:03 $
+$Revision: 1.13 $
 
 目次
 0 はじめに
@@ -34,7 +34,7 @@ BEPは、視覚障害者がGNU Emacsというテキストエディタを、日英２ヶ国語の音声
 (1) Meadow 1.15pre1一式
 Windows版のGNU EmacsであるMeadow本体です。
 (2) Windows用スピーチサーバ(Speak.exe)
-BEPの音声を発生するためのプログラムです。
+BEPの音声を合成するためのプログラムです。
 (3) BEPのプログラム本体
 BEPを動かすための、 Emacs Lisp プログラムです。
 
