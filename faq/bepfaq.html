@@ -11,7 +11,7 @@
 <body>
 
 <h1>BEP Frequently Asked Questions and Answers list</h1>
-<p>$Id: bepfaq.html,v 1.7 2001/09/20 22:19:05 inoue Exp $</p>
+<p>$Id: bepfaq.html,v 1.8 2001/09/21 00:10:57 mitsugu Exp $</p>
 
 <hr>
 
@@ -103,15 +103,15 @@
 
 <h3><a name="faq1.1">BEPとは何ですか？</a></h3>
 <p>BEPとは、Bilingual Emacspeak Platformの略で、視覚障害者がGNU Emacsや、
-Meadowを音声で使うためのパッケージです。
+Meadowを音声で使うためのソフトウェアです。
 <a href="http://emacspeak.sourceforge.net/">Emacspeak</a>
-という英語でEmacsを音声で利用するためのパッケージをバイリンガルでしゃ
+という英語でEmacsを音声で利用するためのソフトウェアをバイリンガルでしゃ
 べるシステムにしたものです。</p>
 
 <h3><a name="faq1.2">GNU Emacsとは何ですか？</a></h3>
 <p>GNU Emacsとは、Unixや、Windowsなど多くのOSで動く多機能エディタです。文書の編集操作はもちろんのこと、外部のパッケージを導入することで、メールやネットニュース、Webブラウザなど多彩な機能を持たせることができるエディタです。</p>
 <p>また、emacs-lispという言語を使うことで、自分の好きなようにエディタの
-動作をカスタマイズできます。</p>
+動作を変更できます。</p>
 
 <h3><a name="faq1.3">Emacsの情報はどこから手に入りますか？</a></h3>
 <p>いくつか参考になるページをあげます。</p>
@@ -119,13 +119,13 @@ Meadowを音声で使うためのパッケージです。
 <dt><a href="http://www.gnu.org/software/emacs/emacs.html">Emacs</a>
 <dd>Emacs本家のページです。英語です。
 <dt><a href="http://emacs-20.ki.nu/">GNU Emacs + Gnus + Mewの環境を作ろう</a>
-<dd>emacs20とGnusとMewの環境をUnix上で作る方法の解説ページです。たくさんのリ
+<dd>emacs20とGnus(ニュースリーダー)とMew(メーラー)の環境をUnix上で作る方法の解説ページです。たくさんのリ
 ンクや情報があります。
 </dl>
 
 <h3><a name="faq1.4">Meadowとは何ですか？</a></h3>
 <P>Meadow (Multilingual Enhancement to gnu Emacs with ADvantages Over Windows) 
-は Windows95/98/ME/NT/2000 上で動作する、Emacs20.X を基に機能を強化したエディタです。</P>
+は Windows95/98/ME/NT/2000 上で動作する、Emacs20 を基に機能を強化したエディタです。</P>
 
 <h3><a name="faq1.5">Meadowの情報はどこから手に入りますか？</a></h3>
 <p>いくつか参考に成りそうなページをあげます。</p>
@@ -160,8 +160,8 @@ Meadowを音声で使うためのパッケージです。
  か？</a></h3>
 <p>以下のアドレス 
 <a href="mailto:bep-subscribe@argv.org">bep-subscribe@argv.org</a>
-に空のメールを送ってください。すると、確認メッセージが返信されてくるので、
-そのメッセージにしたがってください。</p>
+に空のメールを送ってください。すると、確認のメールがきますので、
+それにしたがってください。</p>
 
 <p>BEPメーリングリストについて詳しくは、
 <a href="http://www.argv.org/bep/ml.html">メーリングリストの案内ページ</a>
@@ -239,7 +239,7 @@ SAPIについて詳しくは、
 <p>.emacsというEmacsの設定ファイルをおくディレクトリです。インストール時に指定します。また、環境変数HOMEが指定されていれば、その値を使います。</p>
 
 <h3><a name="faq2.4">.emacsって何ですか？</a></h3>
-<p>Emacsを自分の好きなようにカスタマイズするためのファイルです。
+<p>Emacsの動作を自分の好きなように変更するためのファイルです。
 このファイルは、Emacs-Lispと言う言語で記述されています。</p>
 
 <h3><a name="faq2.5">~/って何ですか？</a></h3>
@@ -259,7 +259,7 @@ SAPIについて詳しくは、
 <p>Meadow(Emacs)は、Windowsのアプリケーションなどとは違ってAlt+F4では終了できません。C-x C-cを使ってください。
 このとき、編集されたファイルがオープンしていると</p>
 <pre>
-jSave File c:/hogehoge.txt? (y,n,!)
+Save File c:/hogehoge.txt? (y,n,!)
 </pre>
 <p>などと聞かれます。
 これは「保存されていないファイルがあるので保存しますか？」というような意味です。
@@ -310,16 +310,14 @@ Windowsの画面を読むにはWindows画面読み上げソフトウェアが必要です。</
 
 <h3><a name="faq3.4">OutSPOKENや、JAWSと一緒に使うとBEPの音とスクリーンリーダーがしゃべる音とが２重に聞こえます。両者を共存させる方法はないですか?</a></h3>
 
-<p>(注： この解答はおかしい?)</p>
-
 <p>Meadow 1.14からはBEPなしでもがんばればoutSPOKENやJAWSでMeadowの画面を読むことができるようになりました。そのため、BEPの音声がこれらのスクリーンリーダーとぶつかってしまうのです。
 これは、Meadowのカーソルの形を、デフォルトのcaret cursorから、スクリーンリーダーが認識しないものに変えると直ります。
 以下のコードを.emacsに書いてください。
 これで、スクリーンリーダーがよけいな読みをしなくなり、BEPとJAWSやOutSPOKENを共存して使えるようになります。</p>
-<pre>
+<code>
 (setq default-frame-alist 
       (cons '(cursor-type . BOX) default-frame-alist))
-</pre>
+</code>
 
 <hr>
 
@@ -328,9 +326,9 @@ Windowsの画面を読むにはWindows画面読み上げソフトウェアが必要です。</
 <h3><a name="faq4.1">C-nを押していくと、ページの後ろに新しい行が挿入されてしまいます。何とかなりませんか？</a></h3>
 <p>Meadow(Emacs20)では、デフォルトがこのようになっています。
 以下のコードを~/.emacsに書くと、C-nで新しい行が挿入されないようになります。</p>
-<pre>
+<code>
 (setq next-line-add-newlines nil)
-</pre>
+</code>
 
 <h3><a name="faq4.2">マニュアルの移動コマンドには、C-hogehogeとか書いてますが、矢印キーなど使って移動はできませんか？</a></h3>
 <p>普通のエディタのようにできます。</p>
@@ -422,7 +420,7 @@ M-x shell ret
 <p>として見ましょう。おなじみのコマンドプロンプトがしゃべります。</p>
 
 <h3><a name="faq7.3">BEPで利用可能なMUA(電子メールソフト)や News Reader は何がありますか？</a></h3>
-<p>現在BEPで利用可能なMUAや、ニュースリーダーは以下のようなものがあります。</p>
+<p>現在BEPで利用可能なメーラーや、ニュースリーダーは以下のようなものがあります。</p>
 <ul>
  <li><a href="http://www.mew.org/">Mew</a>
  <li><a href="http://www.gohome.org/wl/">Wanderlust</a>
@@ -431,6 +429,12 @@ M-x shell ret
 </ul>
 
 <h3><a name="faq7.4">BEPでtelnet は使えますか？</a></h3>
+<p>Emacsには、
+<pre>
+M-x telnet
+</pre>
+とすると、telnetで外部のマシーンに接続できる機能があるのですが、BEPでは
+うまく音声で使えません。</p>
 
 <h3><a name="faq7.5">BEPでFTP は使えますか？</a></h3>
 
@@ -441,7 +445,7 @@ M-x shell ret
 が使えます。</p>
 
 <p><a href="http://www.cs.indiana.edu/elisp/w3/docs.html">Emacs/W3</a>
-では、オーラルスタイルシートによってリンクなどの要素を声を変えて読ませることができます。</p>
+では、ページのリンクやタイトルなどを、声を変えて読ませることができます。</p>
 
 <h3><a name="faq7.7">BEPでHTML編集が楽に出来るのは本当ですか？</a></h3>
 <p>HTML編集では、
@@ -457,7 +461,7 @@ M-x shell ret
 <h3><a name="faq7.9">BEPでperl-mode は利用出来ますか？</a></h3>
 
 <h3><a name="faq7.10">BEPで電子ブック(辞書など)はどの様に利用するのですか？</a></h3>
-<p>BEPに最適化されたモードはありませんが、Emacsの上で動く<a href="http://openlab.ring.gr.jp/lookup/">lookup</a>
+<p>BEPがまだ対応していませんが、Emacsの上で動く<a href="http://openlab.ring.gr.jp/lookup/">lookup</a>
 が使えるかも知れません。</p>
 
 <h3><a name="faq7.11">BEPでスペルチェックは出来ますか？</a></h3>
@@ -497,14 +501,14 @@ M-x doctorすると、英語でdoctorが質問してきます。
 
 <h3><a name="faq8.5">M-x doctorすると、Meadowで挙動がおかしいのですが、どうしたらよいですか？</a></h3>
 <p>以下の設定を~/.emacsに追加してください。</p>
-<pre>
+<code>
 (defadvice doctor-mode (after meadow-doctor-mode first nil)
  "Fixes doctor for Meadow-1.14. But what was the problem in the
   first place?"
  (interactive)
  (setq sentence-end "[.?!][]\"')}]*\\($\\| $\\|\t\\|  \\)[ \t\n]*")
 )
-</pre>
+</code>
 
 <h3><a name="faq8.6">M-x gomokuって何ですか？</a></h3>
 <p>これはおなじみの五目並べです。
