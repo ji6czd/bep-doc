@@ -2,8 +2,8 @@ Bilingual Emacspeak Platform Windows$BHG%$%s%9%H!<%k$N<j0z$-(B
 
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-$B:G=*99?7F|(B:$Date: 2002/01/09 05:47:31 $
-$Revision: 1.24 $
+$B:G=*99?7F|(B:$Date: 2002/05/10 14:51:46 $
+$Revision: 1.25 $
 
 
 $BL\<!(B
@@ -196,7 +196,7 @@ A6: CTRL $B$r2!$7$J$,$i(Be$B$rBG$A!"<!$KC1FH$N(Bd$B$H?t;z0lJ8;z(B (1$B!A
 Meadow$B$d!"(BEmacs $B$N;H$$J}$r3X$V$N$KLr$KN)$A$=$&$J(B Web $B$r>R2p$7$^$9!#(B
 
 (1) Meadow FAQ
-$B!!!!(Bhttp://faq.meadowy.org/
+http://meadow-faq.sourceforge.net/
 
     Meadow $B$K$D$$$F$N<ALd$H2sEz=8$G$9!#(BMeadow $B$K$D$$$F$o$+$i$J$$$3$H$,(B
     $B$"$C$?$i!"$^$:$3$3$r8+$^$7$g$&!#(B
