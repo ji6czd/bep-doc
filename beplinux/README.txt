@@ -1,8 +1,8 @@
 Bilingual Emacspeak Platform - Release 04(Based on Emacspeak 16.0)
 Copyright (C) 1999-2003 Bilingual Emacspeak Project
 Documented by: Koichi INOUE <inoue@argv.org>
-最終更新日:$Date: 2003/10/26 18:52:09 $
-$Revision: 1.10 $
+最終更新日:$Date: 2003/10/26 19:00:33 $
+$Revision: 1.11 $
 
 
 目次
@@ -91,7 +91,7 @@ emacspeak-16.0.tar.gzパッケージと本パッケージを適当な場所に展開します。
 がいくつか(Makefileなど)ありますが上書きしてください。
 ----
 % cd emacspeak-16.0
-% cp -pr ../emacspeak-16.0-bep-rel04 .
+% cp -pr ../emacspeak-16.0-bep-rel04/* .
 ----
 
 これでBilingual Emacspeak Platformのlisp部配布ファイルが生成されます。
