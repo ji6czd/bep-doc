@@ -2,8 +2,8 @@ Bilingual Emacspeak Platform Windows$BHG%$%s%9%H!<%k$N<j0z$-(B
 
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-$B:G=*99?7F|(B:$Date: 2002/05/10 14:51:46 $
-$Revision: 1.25 $
+$B:G=*99?7F|(B:$Date: 2002/06/02 07:27:43 $
+$Revision: 1.26 $
 
 
 $BL\<!(B
@@ -45,8 +45,9 @@ BEP$B$O!";k3P>c32<T$,(B GNU Emacs $B$H$$$&%F%-%9%H%(%G%#%?$r!"F|1Q#2%v9q8l$N
 (1) Meadow 1.15pre1$B0l<0(B
     Windows $BHG$N(B GNU Emacs $B$G$"$k(B Meadow $BK\BN$G$9!#(B
 
-(2) Windows $BMQ%9%T!<%A%5!<%P(B (speak.exe)
+(2) Windows $BMQ%9%T!<%A%5!<%P(B (speakP.exe, Speakt.exe)
     BEP$B$N(B $B2;@<$r9g@.$9$k$?$a$N%W%m%0%i%`$G$9!#(B
+SpeakP.exe$B$O!"(BIBM ProTalker97$BMQ!"(BSpeakt.exe$B$O!"El<G%i%i%\%$%9(B2001$BMQ$G$9!#(B
 
 (3) BEP $B$N%W%m%0%i%`K\BN(B
     BEP $B$rF0$+$9$?$a$N!"(B Emacs Lisp $B%W%m%0%i%`$G$9!#(B
@@ -60,7 +61,7 @@ BEP$B$O!";k3P>c32<T$,(B GNU Emacs $B$H$$$&%F%-%9%H%(%G%#%?$r!"F|1Q#2%v9q8l$N
 
 $B!&(BOS: Windows98/Windows98SE/WindowsME/Windows2000SP2
 $B!&(BMicrosoft Speech API 4
-$B!&F|K\8lMQ2;@<9g@.%i%$%V%i%j(B: IBM ProTalker 97
+$B!&F|K\8lMQ2;@<9g@.%i%$%V%i%j(B: IBM ProTalker 97, $BEl<G%i%i%\%$%9(B2001
 $B!&1Q8lMQ2;@<9g@.%i%$%V%i%j(B: Microsoft Text-to-Speech Engine
 
 
