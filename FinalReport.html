@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<!-- $Id: FinalReport.html,v 1.8 2002/02/09 08:21:14 seiken Exp $
+<!-- $Id: FinalReport.html,v 1.9 2002/02/09 08:34:38 seiken Exp $
 -->
 
 <h1>「日米2ヶ国語Emacs音声化システムBEPによるLinuxの音声利用」<br>成果報告書</h1>
@@ -292,6 +292,22 @@ V4の音声フィードバックサポート、Mew, emacs-w3m等のサポートが含まれる。
 <h3>4.3 interactive$B関数の一覧 </h3>
 <h3>4.4 Linux Speech Serverの構成概要</h3>
 <h3>4.5 LinuxSS制御コマンド一覧</h3>
+
+<p>とりあえず張り付けておきます、井上さん、よろしく。</p>
+<pre>
+q { <string> } : 文字列をキューに入れる
+d : キューの中身をしゃべる
+s : 音声即時呈し
+l { <letter> } : 文字を即時発声（大文字の区別あり）
+tts_say { <string> } : 文字列を即時発声
+t <freq> <msec> : トーンサイン
+tts_set_speech_rate <wpm> : 音声速度設定
+tts_set_punctuations <mode> : 記号類読み上げモード指定
+tts_set_language <lang> : 言語指定（context.hに定義があります）
+tts_set_character_scale <rate> : 'l` コマンドのスピードの倍率を設定
+tts_sync_state <punc-mode> <capitaloze> <allcaps-beep> <split-caps> <rate> : 
+    パラメータの一括設定（インプリメントされていないものもあります）
+</pre>
 
 <h2>5. 入手方法及びインストールの手順</h2>
 
