@@ -1,8 +1,8 @@
        Bilingual Emacspeak Platform Windows版インストールの手引き
 Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2001/12/26 17:53:03 $
-$Revision: 1.7 $
+最終更新日:$Date: 2001/12/26 18:42:13 $
+$Revision: 1.8 $
 
 目次
 0 はじめに
@@ -34,7 +34,9 @@ BEPは、視覚障害者がGNU Emacsというテキストエディタを、日英２ヶ国語の音声
 (1) Meadow 1.15pre1一式
 Windows版のGNU EmacsであるMeadow本体です。
 (2) Windows用スピーチサーバ(Speak.exe)
+BEPの音声を発生するためのプログラムです。
 (3) BEPのプログラム本体
+BEPを動かすための、 Emacs Lisp プログラムです。
 
 3 インストール
 3-1 動作環境
@@ -78,7 +80,7 @@ ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
 すると、展開先をたずねるダイアログボックスが出るので、良ければ[OK]を押し
 てください。
 ファイルを展開した後、Meadowを最終組立てして、インストールを終
-了します。デフォルトでは、c:\Meadowというフォルダの下にBEPのファイルがイ
+了します。デフォルトでは、c:\Meadowというディレクトリの下にBEPのファイルがイ
 ンストールされます。
 (注意)
 BEPのインストール先を指定する場合は、「C:\」とか、「D:\」などのように、ルート
