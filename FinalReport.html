@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<!-- $Id: FinalReport.html,v 1.20 2002/02/11 06:52:38 seiken Exp $
+<!-- $Id: FinalReport.html,v 1.21 2002/02/11 17:49:16 inoue Exp $
 -->
 
 <h1>$B!VF|JF(B2$B%v9q8l(BEmacs$B2;@<2=%7%9%F%`(BBEP$B$K$h$k(BLinux$B$N2;@<MxMQ!W(B<br>$B@.2LJs9p=q(B ($B0F(B)</h1>
@@ -728,9 +728,96 @@ voice-lock$B$H$$$&35G0$rF3F~$7$F$$$k!#(Blisp, C, C++, Perl$B$J$I$N%=!<%9%U%!%
 
 <h4>$BEE;R%a!<%k(B Mew</h4>
 
-<h2>7. $B8!::J}K!(B</h2>
+<h2>7. $B%F%9%H5Z$S?GCGJ}K!(B</h2>
+<p>
+BEP$B$N(BELisp$BIt5Z$S(BLinux$B%9%T!<%A%5!<%P$NF0:n3NG'!"?GCGJ}K!$K$D$$$F=R$Y$k!#(B
+</p>
+<h3>7.1 Linux$B%9%T!<%A%5!<%P(B</h3>
+<h4>7.1.1 $B%9%T!<%A%5!<%P$NF0:n3NG'(B</h4>
+<p>
+BEP$B$rF0:n$5$;$k$?$a$K$O!"$^$:%9%T!<%A%5!<%P$,@5>o$KF0:n$7$F$$$kI,MW$,$"(B
+$B$k!#%9%T!<%A%5!<%P$OI8=`F~NO$+$i%3%^%s%I$r#19TC10L$GFI$_!"%3%^%s%I$r2r<a(B
+$B$7$FF0:n$9$k%W%m%0%i%`$J$N$G!"%7%'%k>e$+$i5/F0$7$F%3%^%s%I$rF~NO$9$k$3$H(B
+$B$G4JC1$KF0:n3NG'$,9T$($k!#(B
+</p>
+<p>
+Linux$B%9%T!<%A%5!<%P$r5/F0$9$k$K$O!"(BLinuxSpeechServer$B$N%G%#%l%/%H%j$K0\F0(B
+$B$7!"(B<code>./bep-ss</code>$B$r5/F0$9$k!#0J2<$N$h$&$J=PNO$,$"$l$P@5>o$K5/F0(B
+$B$5$l$?$3$H$,3NG'$G$-$k!#(B
+</p>
+<pre>
+DT: Initializing CreateSystem speech engine...
+TTS_Outloud: IBM Viavoice outloud speech synth...
+Bilingual Emacspeak Speech Server started!
+ready
+</pre>
+<p>
+$BF0:n$r3NG'$9$k$K$O0J2<$N$h$&$KF~NO$9$k!#(B
+</p>
+<pre>
+q {Hello in Japanese}
+tts_set_language en
+q {Hello in English}
+tts_set_language ja
+q {Hello in Japanese again}
+d
+</pre>
+<p>
+<code>d</code>$B$rF~NO$7$F2~9T$rF~NO$9$k$HF|K\8l$H1Q8l$G8r8_$KFI$_>e$2(B
+$B$,9T$o$l$k$O$:$G$"$k!#$^$?!"FI$_>e$2$F$$$kESCf$G(B<code>s</code>$B$rF~NO8e2~(B
+$B9T$rF~NO$9$k$H!"$=$N;~E@$GH/@<$,Dd;_$9$k!#(B
+</p>
+<p>
+<code>ready</code>$B$N%a%C%;!<%8$,=PNO$5$l$:$K(B<code>bep-ss</code>$B$,=*N;$9(B
+$B$k>l9g!"=i4|@_Dj$KLdBj$,$"$k$3$H$,9M$($i$l$k!#$=$NNc$N$$$/$D$+$r<($9!#(B
+</p>
+<dl>
+<dt>DT: can not load Eng to Kana dictionary: /usr/wrong/path/bep-eng.dic</dt>
+<dd>$B%+%?%+%J1Q8lFI$_>e$2$KI,MW$J(Bbep-eng.dic$B$,8+$D$+$i$J$$>l9g$N%(%i!<$G(B
+    $B$"$k!#4D6-JQ?t(B<code>BEP_DIC_PATH</code>$B$G(B<code>bep-eng.dic</code>$B$N(B
+    $B%U%k%Q%9$r;XDj$9$k$+!"%U%!%$%k$r(B<code>config.h</code>$B$G;XDj$5$l$?>l(B
+    $B=j$KG[CV$9$k!#(B</dd>
+<dt>DT: SYT_syntheInit failed</dt>
+<dd>$BF|K\8l2;@<9g@.$N$?$a$NGH7A=hM}$r=i4|2=$G$-$J$+$C$?!#<g$J860x$H$7$F$O(B
+    Linux$BMQF|K\8l2;@<9g@.%i%$%V%i%j$N$?$a$NGH7A<-=q(B
+    <code>HIGH11.VSD</code>$B$r(B<code>config.h</code>$B$G;XDj$7$?>l=j$KG[CV$7(B
+    $B$F$$$J$$$3$H$,9M$($i$l$k!#<-=q$N%$%s%9%H!<%k>u67$r3NG'$9$kI,MW$,$"$k!#(B
+    </dd>
+<dt>DT: LNG_analyzeInit failed</dt>
+<dd>$BF1$8$/F|K\8l2;@<9g@.$N868l=hM}It$,=i4|2=$G$-$J$+$C$?$3$H$r<($7$F$$$k!#(B
+    $B<g$J860x$H$7$F$O868l=hM}$N$?$a$N<-=q(B<code>wd2k03.dic</code>$B$,%m!<%I(B
+    $B$G$-$J$+$C$?$3$H$,9M$($i$l$k!#(B<code>config.h</code>$B$K$h$k;XDj$H<-=q(B
+    $B$N%$%s%9%H!<%k>u67$r3NG'$9$kI,MW$,$"$k!#(B</dd>
+<dt>Outloud: Create ECI handle failed</dt>
+<dd>Outloud TTS$B$,=i4|2=$G$-$J$+$C$?>l9g$N%(%i!<$G$"$k!#$$$m$$$m$J860x$,(B
+    $B9M$($i$l$k$,!"$b$C$H$b2DG=@-$,9b$$$N$O(B<code>eci.ini</code>$B%U%!%$%k$,(B
+    $B8+$D$+$i$J$+$C$?>l9g$G$"$k!#I8=`E*$J(BViaVoice Outloud$B$N(BRPM$B$+$i$N%$%s(B
+    $B%9%H!<%k$G$O!"(Becil.ini$B$O(B
+<code>/usr/lib/ViaVoiceTTS/eci.ini</code>
+$B$K:n@.$5$l$k!#$^$?!"$3$N%U%!%$%k$O(B<code>inigen</code>$B%W%m%0%i%`$rMxMQ$7(B
+    $B$F!"(B
+<pre>
+/usr/lib/ViaVoiceTTS/bin/inigen /usr/lib/libibmeci50.so eci.ini
+</pre>
+$B$H$7$F:n@.$9$k$3$H$,$G$-$k!#(B
+$B>\:Y$O(BViaVoice Outloud RTK$BIUB0$N%I%-%e%a%s%H$r;2>H$5$l$?$$!#(B
+</dd>
+<dt>$B%i%$%V%i%j$,%m!<%I$G$-$J$$>l9g(B</dt>
+<dd>$BI8=`E*$J%i%$%V%i%j%Q%9(B(<code>/usr/lib</code>$BEy(B)$B$KI,MW$J(BTTS$B%=%U%H%&%'(B
+    $B%"$N%i%$%V%i%j72$,%3%T!<$5$l!"(Bldconfig$B$5$l$F$$$k$+$r3NG'$9$k!#$^$?$O!"(B
+    <code>LD_LIBRARY_PATH</code>$B4D6-JQ?t$,6&M-%i%$%V%i%j$rG[CV$7$?>l=j$K(B
+    $BE,@Z$K@_Dj$5$l$F$$$k$+$r3NG'$9$k!#(B</dd>
+<dt>$B2;$,$G$J$$(B</dt>
+<dd>$B%3%^%s%I$O<u$1IU$1$i$l$F2;$,$G$J$$>l9g!"%5%&%s%I%G%P%$%9$,MxMQ2DG=$J(B
+    $B>uBV$K$J$C$F$$$k$+3NG'$9$k!#B?$/$N%5%&%s%I%A%C%W$G$OB>$N2;@<$r:F@8$9(B
+    $B$k%W%m%0%i%`$,F0:n$7$F$$$k$H2;$r=P$9$3$H$,$G$-$J$$!#K\%=%U%H%&%'%"$O(B
+    esound$BEy$N%5%&%s%I%7%9%F%`$K$OFC$KBP1~$7$F$$$J$$!#(B</dd>
+</dl>
+<h4>7.1.2 $B%G%P%C%0>pJs$N<}=8(B</h4>
+<p>
 
-<p>LinuxSS$B$N%F%9%HJ}K!(B($B4^$`8@8l@Z$jBX$(5!G=$N(Bchk)</p>
+</p>
+
 <p>BEP$B$NF0:n%F%9%HJ}K!(B</p>
 
 <h2>8. $B%*!<%W%s%=!<%9$K$h$kJ!;c%7%9%F%`3+H/$K$D$$$F(B</h2>
