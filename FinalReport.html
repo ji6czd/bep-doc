@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<!-- $Id: FinalReport.html,v 1.13 2002/02/10 03:11:29 seiken Exp $
+<!-- $Id: FinalReport.html,v 1.14 2002/02/10 09:29:46 inoue Exp $
 -->
 
 <h1>$B!VF|JF(B2$B%v9q8l(BEmacs$B2;@<2=%7%9%F%`(BBEP$B$K$h$k(BLinux$B$N2;@<MxMQ!W(B<br>$B@.2LJs9p=q(B</h1>
@@ -298,7 +298,72 @@ paren$B!W$HFI$`$+!V%+%C%3!W$HFI$`$+$J$I(B)$B!"%+!<%=%k0\F0;~$dF~NO;~$KE,$7$?F
 V4$B$N2;@<%U%#!<%I%P%C%/%5%]!<%H!"(BMew, emacs-w3m$BEy$N%5%]!<%H$,4^$^$l$k!#(B
 </p>
 
-<h3>4.3 interactive$B4X?t$N0lMw(B </h3>
+<h3>4.3 $B%f!<%6$+$i8+$($kJQ99(B </h3>
+<p>
+$BK\%W%m%8%'%/%H$G3+H/$7$?(BBilingual Emacspeak Platform$B$G$O%*%j%8%J%k(B
+Emacspeak$B$N5!G=$rF|K\8l1Q8l$N:.:_4D6-$G$b%7!<%`%l%9$KMxMQ2DG=$H$9$kJ}8~(B
+$B$G3HD%$r9T$C$?!#$=$N$?$a%f!<%6$+$i8+$($kItJ,$G$NA`:nE*JQ99$OHf3SE*>/$J$/(B
+$B$J$C$F$$$k!#(B
+</p>
+<p>
+$B0J2<$OB?8@8l3HD%$K4XO"$7$?(Binteractive$B%3%^%s%I$N0lMw$G$"$k!#(B
+</p>
+<dl>
+<dt>emacspeak-m17n-auto-put-language-mode</dt>
+<dd>
+$B%P%C%U%!$NJQ99!"%&%$%s%I!<$N%9%/%m!<%k!"%j%5%$%:$J$I$N%$%Y%s%H$K9g$o$;$F!"(B
+$BI=<($5$l$F$$$kItJ,$K<+F0E*$K8@8l%W%m%Q%F%#$rIUM?$9$k5!G=$r(Bon/off$B$9$k!#F1(B
+$BL>$NJQ?t$r%H%0%k$9$k$H$H$b$K!"4XO"$9$k%U%C%/$N@_Dj$H2r=|$r9T$&!#(B
+</dd>
+<dt>emacspeak-m17n-ja-toggle-strategy</dt>
+<dd>
+$BF|K\8l$H1Q8l$N%P%$%j%s%,%k4D6-$K$*$$$F!"MxMQ2DG=$J(Bput-language-strategy
+$B$r%H%0%k$9$k!#>\$7$/$O%+%9%?%^%$%:JQ?t$N9`$r;2>H!#(B
+</dd>
+ <dt>emacspeak-m17n-put-language-region</dt>
+<dd>
+$B8=:_$N(B<code>emacspeak-m17n-put-language-strategy</code>$B$K=>$C$F;XDj$7$?(B
+$BNN0h$K8@8l%W%m%Q%F%#$rIUM?$9$k!#(B
+</dd>
+<dt>emacspeak-m17n-sync-rate-offset</dt>
+<dd>
+$B8@8l$4$H$NH/@<B.EY%*%U%;%C%H$,;XDj$5$l$F$$$k>l9g$K!"$=$l$r%9%T!<%A%5!<%P(B
+$B$KH?1G$9$k%3%^%s%I$rAw?.$9$k!#(B
+</dd>
+</dl>
+<p>
+$B0J2<$O%P%$%j%s%,%k3HD%$GF3F~$5$l$?%f!<%6@_Dj2DG=$JJQ?t0lMw$G$"$k!#(B
+</p>
+<dl>
+<dt>dtk-speaker-process-coding-system</dt>
+<dd>$B%9%T!<%A%5!<%P$KAw?.$5$l$k%3%^%s%IJ8;zNs$N(Bcoding-system$B!#8=:_$N(B
+    Windows$B5Z$S(BLinux$BMQ%9%T!<%A%5!<%P$G$O(BShift_JIS$B$rMQ$$$k!#(B</dd>
+<dt>dtk-default-language</dt>
+<dd>$B8@8lB0@-$,D%$i$l$F$$$J$$J8;z$rFI$`$H$-$N%G%U%)%k%H8@8l(B</dd>
+<dt>emacspeak-m17n-auto-put-language-mode</dt>
+<dd>$B<+F0E*$K8@8lB0@-$rIUM?$9$k$+$I$&$+$r<($9!#D>@\JQ99$;$:!"(B
+    emacspeak-m17n-auto-put-language-mode$B%3%^%s%I$GJQ99$9$k!#(B</dd>
+<dt>emacspeak-m17n-put-language-strategy</dt>
+<dd>$B8@8lB0@-$rIUM?$9$k4X?t$r;XDj$9$k!#;XDj$5$l$?4X?t$K$O!"0z?t$H$7$FNN0h(B
+    $B$N@hF,$H:G8e$N%]%$%s%H!"JQ99A0$NNN0h$ND9$5$,EO$5$l$k!#(B</dd>
+<dt>emacspeak-m17n-put-language-internal-strategy</dt>
+<dd>$B%P%C%U%!$G$O$J$/(BEmacs$B$,I=<($9$k%a%C%;!<%8$J$I!"8@8lB0@-$,IUM?$5$l$J(B
+    $B$$>uBV$G(BSS$B@)8fIt$KD>@\EO$5$l$?J8;zNs$KE,MQ$9$kB0@-IUM?4X?t$r;XDj$9$k!#(B
+    $B2>Dj$5$l$k0z?t$O(Bemacspeak-m17n-put-language-strategy$B$HF1$8!#(B</dd>
+<dt>emacspeak-m17n-rate-offset-alist </dt>
+<dd>$B8@8l$H$=$l$KBP1~$7$?B.EY%*%U%;%C%H$N(Balist<br>
+$BNc(B: ((ja 0) (en -30))</dd>
+<dt>emacspeak-m17n-ja-strategy-list</dt>
+<dd>$BF|K\8l$H$N%P%$%j%s%,%k4D6-$G!"(Bemacspeak-m17n-ja-toggle-strategy$B$GA*(B
+    $BBr$G$-$k8@8lB0@-IUM?4X?t$N%j%9%H(B</dd>
+<dt>emacspeak-m17n-ja-ke-limit</dt>
+<dd>$B8@8lB0@-IUM?$,:.:_%b!<%I$N;~!"2?J8;z0J>e$N(BASCII$BJ8;zNs$r1Q8l$H$7$F07(B
+    $B$&$+$N;XDj!#%G%U%)%k%H$O(B40</dd>
+<dt>emacspeak-m17n-ja-ke-view</dt>
+<dd>$B8@8lB0@-IUM?$,:.:_%b!<%I$GJQ99A0$ND9$5$,(Bke-limit$B$h$jC;$$;~!"%]%$%s%H(B
+    $B0LCV$+$i>e2<$K$J$s9T$r8+$FH=Dj$9$k$+$N;XDj!#%G%U%)%k%H$O(B3$B$G!">e2<#2(B
+    $B9T$r8+$k!#(B</dd>
+</dl>
 
 <h3>4.4 Linux Speech Server$B$N9=@.35MW(B</h3>
 
