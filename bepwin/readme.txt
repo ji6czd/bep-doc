@@ -1,8 +1,9 @@
 Bilingual Emacspeak Platform Windows”ÅƒCƒ“ƒXƒg[ƒ‹‚ÌŽèˆø‚«
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-ÅIXV“ú:$Date: 2001/12/28 00:59:48 $
-$Revision: 1.15 $
+ÅIXV“ú:$Date: 2001/12/28 02:58:37 $
+$Revision: 1.16 $
+
 
 –ÚŽŸ
 0 ‚Í‚¶‚ß‚É
@@ -17,19 +18,26 @@ $Revision: 1.15 $
 7 ‚»‚Ì‘¼
 8 ˜A—æ
 
+
 0 ‰‚ß‚É
 ‚±‚ÌƒhƒLƒ…ƒƒ“ƒg‚Å‚ÍABilingual Emacspeak Platform (ˆÈ‰ºBEP‚Æ—ª‚·) Windows
-”Å‚ÌƒCƒ“ƒXƒg[ƒ‹‚Ì•û–@‚ðà–¾‚µ‚Ü‚·B‚Ü‚½AEmacs (Meadow) ‚ðŽg‚¤ã‚ÅŽQl‚É
+”Å‚ÌƒCƒ“ƒXƒg[ƒ‹‚Ì•û–@‚ðà–¾‚µ‚Ü‚·B
+‚Ü‚½AEmacs (Meadow) ‚ðŽg‚¤ã‚ÅŽQl‚É
 ‚È‚éŽ‘—¿‚ðÐ‰î‚µ‚Ü‚·B
 
+
 1 ‚±‚ÌƒpƒbƒP[ƒW‚É‚Â‚¢‚Ä
+
 BEP‚ÍAŽ‹ŠoáŠQŽÒ‚ªGNU Emacs‚Æ‚¢‚¤ƒeƒLƒXƒgƒGƒfƒBƒ^‚ðA“ú‰p‚Qƒ–‘Œê‚Ì‰¹º
 o—Í‚ð—˜—p‚µ‚ÄŽg‚¤‚½‚ß‚Ìƒ\ƒtƒgƒEƒFƒA‚Å‚·B
+
 ‚±‚ÌƒpƒbƒP[ƒW‚ÍABEP‚Ì‰Šú“±“ü‚ð—eˆÕ‚É‚·‚é‚½‚ß‚Éì¬‚µ‚Ü‚µ‚½B
 ƒtƒŠ[ƒ\ƒtƒgƒEƒFƒA‚Æ‚µ‚Ä”z•z‚Å‚«‚éABEP‚ÌWindows”Å‚ð“®ì‚³‚¹‚é‚½‚ß‚Ìƒtƒ@
 ƒCƒ‹‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 
+
 2 ƒpƒbƒP[ƒW‚Ì“à—e
+
 ƒpƒbƒP[ƒW‚É‚ÍˆÈ‰º‚Ì‚à‚Ì‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 
 (1) Meadow 1.15pre1ˆêŽ®
@@ -39,7 +47,9 @@ BEP‚Ì‰¹º‚ð‡¬‚·‚é‚½‚ß‚ÌƒvƒƒOƒ‰ƒ€‚Å‚·B
 (3) BEP‚ÌƒvƒƒOƒ‰ƒ€–{‘Ì
 BEP‚ð“®‚©‚·‚½‚ß‚ÌA Emacs Lisp ƒvƒƒOƒ‰ƒ€‚Å‚·B
 
+
 3 ƒCƒ“ƒXƒg[ƒ‹
+
 3-1 “®ìŠÂ‹«
 ˆÈ‰º‚ÌŠÂ‹«‚Å“®ìŠm”F‚ðs‚¢‚Ü‚µ‚½B
 
@@ -47,7 +57,9 @@ BEP‚ð“®‚©‚·‚½‚ß‚ÌA Emacs Lisp ƒvƒƒOƒ‰ƒ€‚Å‚·B
 (2) “ú–{Œê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ: IBM ProTalker 97
 (3) ‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ: Microsoft Text-to-Speech Engine
 
+
 3-2 ƒCƒ“ƒXƒg[ƒ‹•û–@
+
 (1)‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·B
 BEP‚ð“®ì‚³‚¹‚é‚É‚ÍA“ú–{Œê‚Æ‰pŒê‚ÌSAPI(Speech API)‘Î‰ž‚Ì‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ª•K—v‚Å‚·B
 ‚±‚ÌƒpƒbƒP[ƒW‚É‚ÍA‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ÍŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñBŠeŽ©‚ÅƒCƒ“ƒXƒg[
@@ -59,12 +71,10 @@ BEP‚ð“®ì‚³‚¹‚é‚É‚ÍA“ú–{Œê‚Æ‰pŒê‚ÌSAPI(Speech API)‘Î‰ž‚Ì‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ª•K—
 (A)‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ
 ‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚É‚ÍAMicrosoft‚ÌText-to-SpeechƒGƒ“ƒWƒ“(‰pŒê”Å)
 ‚ðAŽg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-
 spchapi.exe(825KB)
 http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
 msttsL.exe (7.3MB)
 http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE
-
 ‚Ì“ñ‚Â‚ðƒ_ƒEƒ“ƒ[ƒh‚µŽÀs‚µ‚Ä‚­‚¾‚³‚¢B
 
 (B)“ú–{Œê‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ
@@ -92,7 +102,9 @@ BEP‚ÌƒCƒ“ƒXƒg[ƒ‹æ‚ðŽw’è‚·‚éê‡‚ÍAuC:\v‚Æ‚©AuD:\v‚È‚Ç‚Ì‚æ‚¤‚ÉAƒ‹[ƒg
 uC:\Program Filesv ‚Ì‚æ‚¤‚ÉAƒTƒuƒfƒBƒŒƒNƒgƒŠ‚ÉƒCƒ“ƒXƒg[ƒ‹‚ð‚·‚é‚ÆA
 Œ»Ý‚Å‚ÍAMeadow‚ª³í‚É“®ì‚µ‚Ü‚¹‚ñB
 
+
 4 Meadow‚Ì‹N“®
+
 Meadow‚ÍAˆÈ‰º‚Ì‚æ‚¤‚É‚µ‚Ä‹N“®‚µ‚Ü‚·B
 
 (1) ƒXƒ^[ƒgƒƒjƒ…[‚ðŠJ‚«‚Ü‚·B
@@ -106,6 +118,7 @@ Meadow‚ÍAˆÈ‰º‚Ì‚æ‚¤‚É‚µ‚Ä‹N“®‚µ‚Ü‚·B
  ‚ð‰Ÿ‚µ‚Ü‚·B
 (7)‚±‚ê‚ÅMeadow‚ª‹N“®‚µ‚Ü‚µ‚½B‚µ‚Î‚ç‚­‚·‚é‚ÆA‰pŒê‚Å‚ÌƒAƒiƒEƒ“ƒXƒƒbƒZ[
  ƒW‚ª—¬‚ê‚Ä‚«‚Ü‚·B
+
 
 5 Q&A
 
@@ -146,7 +159,9 @@ A6: CTRL‚ð‰Ÿ‚µ‚È‚ª‚çe‚ð‰Ÿ‚µ‚Ä‚©‚çA‚„‚ð‰Ÿ‚µ‚Ä1‚©‚ç9‚Ü‚Å‚Ì”Žš‚ð“ü‚ê‚Ü‚·B‚·‚é‚Æ
 ’ˆÓ: ”Žš‚Í‚¨D‚Ý‚É’²ß‚µ‚Ä‚­‚¾‚³‚¢B”Žš‚ª‘å‚«‚­‚È‚é‚Ù‚Ç‘¬‚­‚È‚èA¬‚³
 ‚­‚È‚é‚Ù‚Ç’x‚­‚È‚è‚Ü‚·B
 
+
 6 ŽQlŽ‘—¿
+
 Meadow‚âAEmacs‚ÌŽg‚¢•û‚ðŠw‚Ô‚Ì‚É–ð‚É—§‚¿‚»‚¤‚È Web ‚ðÐ‰î‚µ‚Ü‚·B
 
 (1) Meadow FAQ
@@ -167,10 +182,14 @@ http://emacspeak.sourceforge.net/
 BEP‚ÌŒ³‚É‚È‚Á‚½ Emacspeak ‚Ìƒy[ƒW‚Å‚·B‰pŒê‚Å‚·‚ªAƒ†[ƒU[ƒYƒKƒCƒh‚È‚Ç
 ‚Ìƒ}ƒjƒ…ƒAƒ‹‚ª“Ç‚ß‚Ü‚·B‰pŒê‚ª“¾ˆÓ‚Èl‚ÍA“Ç‚ñ‚Å‚Ý‚é‚ÆŽQl‚É‚È‚é‚©‚à‚µ‚ê
 ‚Ü‚¹‚ñB
+
+
 7 ‚»‚Ì‘¼
+
 ‚±‚ÌŠÈ’PƒCƒ“ƒXƒg[ƒ‹ƒpƒbƒP[ƒW‚ÉŠÜ‚Ü‚ê‚éMeadow‚Ì–{‘Ì‚Æƒ\[ƒXƒR[ƒh‚ÍAˆÈ‰º‚ÌêŠ‚©‚ç“ü
 Žè‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
 ftp://ftp.m17n.org/pub/mule/Windows/
+
 
 8 ˜A—æ
 BEP‚ÌƒvƒƒOƒ‰ƒ€‚ÉŠÖ‚·‚éŽ¿–âAƒoƒOƒŒƒ|[ƒg‚ÍABEPƒ[ƒŠƒ“ƒOƒŠƒXƒg‚Ö‚¨Šè‚¢‚µ‚Ü‚·Bƒ[ƒŠ
