@@ -11,125 +11,125 @@
 <body>
 
 <h1>BEP Frequently Asked Questions and Answers list</h1>
-<p>$Id: bepfaq.html,v 1.22 2001/11/24 14:26:35 mitsugu Exp $</p>
+<p>$Id: bepfaq.html,v 1.23 2002/01/17 01:46:59 mitsugu Exp $</p>
 
 <hr>
 <h2><a name="content">目次</a></h2>
 <dl>
-<dt>一般的な情報
-<dd><ul>
- <li><a href="#faq1.1">1.1 BEPとは何ですか？</a>
- <li><a href="#faq1.2">1.2 GNU Emacsとは何ですか？</a>
- <li><a href="#faq1.3">1.3 Emacsの情報はどこから手に入りますか？</a>
- <li><a href="#faq1.4">1.4 Meadowとは何ですか？</a>
- <li><a href="#faq1.5">1.5 Meadowの情報はどこから手に入りますか？</a>
- <li><a href="#faq1.6">1.6 BEPの最新バージョンはいくつですか？</a>
- <li><a href="#faq1.7">1.7 BEPのメーリングリストはありますか？</a>
- <li><a href="#faq1.8">1.8 BEPのメーリングリストに入るにはどうしたらよいです
-     か？</a> 
- <li><a href="#faq1.9">1.9 BEPのメーリングリストをやめるにはどうしたらよいで
-     すか？</a>
- <li><a href="#faq1.10">1.10 BEPのメーリングリストの過去記事の検索はできますか？
-     </a>
- <li><a href="#faq1.11">1.11 BEP には日本語のマニュアルがありますか？</a>
- <li><a href="#faq1.12">1.12 BEP という名前の由来は？</a>
- <li><a href="#faq1.13">1.13 BEPの著作権はどうなっていますか？</a>
- <li><a href="#faq1.14">1.14 MeadowやEmacsの著作権について教えてください。</a>
- <li><a href="#faq1.15">1.15 この FAQ はどこから手に入れる事ができますか？</a>
- <li><a href="#faq1.16">1.16 この FAQ や、マニュアルで書かれている C-c や M-x とは何ですか？</a>
- <li><a href="#faq1.17">1.17 BEPを使い始めるときに読む解説書はありますか？</a>
- <li><a href="#faq1.18">1.18 BEPにとても興味があります。音声のデモなどは無いの
-     ですか？</a>
-</ul>
-<dt>インストールに関する疑問
-<dd><ul>
- <li><a href="#faq2.1">2.1 パッケージの解凍(展開)ができないのですが？</a>
- <li><a href="#faq2.2">2.2 SAPIとは何ですか？</a>
- <li><a href="#faq2.3">2.3 ホームディレクトリって何ですか？</a>
- <li><a href="#faq2.4">2.4 .emacsって何ですか？</a>
- <li><a href="#faq2.5">2.5 ~/って何ですか？</a>
- <li><a href="#faq2.6">2.6 BEP が起動しません。</a>
- <li><a href="#faq2.7">2.7 BEP(Emacs/Meadow)が終了出来ません。</a>
- <li><a href="#faq2.8">2.8 BEPが起動しましたが、どうすればいいか分かりません。</a>
- <li><a href="#faq2.9">2.9 BEP をアンインストールするにはどうすれば良いですか？</a>
- <li><a href="#faq2.10">2.10 Emacs/Meadowをアンインストールするには、どうしたらよいですか？</a>
-</ul>
-<dt>Windows用各スクリーンリーダーとの相性について
-<dd><ul>
- <li><a href="#faq3.1">3.1 BEPを入れたのにWindowsの画面を読んでくれません。</a>
- <li><a href="#faq3.2">3.2 BEPと各スクリーンリーダーは、一緒に使うことはできますか？</a>
- <li><a href="#faq3.3">3.3 2000readerを入れているとMeadowのinstall.exeがエラー終了します。</a>
- <li><a href="#faq3.4">3.4 outSPOKENや、JAWSと一緒に使うとBEPの音とスクリーンリーダーがしゃべる音とが２重に聞こえます。両者を共存させる方法はないですか?</a>
-</ul>
-<dt>Emacsに関連した基礎知識
-<dd><ul>
- <li><a href="#faq4.1">4.1 C-nを押していくと、新しい行が挿入されてしまいます。何とかなりませんか？</a>
- <li><a href="#faq4.2">4.2 マニュアルの移動コマンドには、C-hogehogeとか書いてますが、矢印キーなど使って移動はできませんか？</a>
- <li><a href="#faq4.3">4.3 Infoとは何ですか？</a>
- <li><a href="#faq4.4">4.4 ファイルとは何ですか？</a>
- <li><a href="#faq4.5">4.5 バッファー(buffer)とは何ですか？</a>
- <li><a href="#faq4.6">4.6 Windowとは何ですか？WindowsのWindowと違うのですか？</a>
- <li><a href="#faq4.7">4.7 フレームとは何ですか？</a>
- <li><a href="#faq4.8">4.8 エコーエリアと minibuffer はどう違うんですか</a>
- <li><a href="#faq4.9">4.9 メジャーモードとマイナーモードは、何が違うのですか？</a>
- <li><a href="#faq4.10">4.10 coding-systemとは何ですか？</a>
-</ul>
-<dt>BEPの使い方について
-<dd><ul>
- <li><a href="#faq5.1">5.1 突然BEPが喋らなくなってしまったのですが、</a>
- <li><a href="#faq5.2">5.2 日本語と英語の音声の速度のひを変えられますか？</a>
- <li><a href="#faq5.3">5.3 C-eで行末に移動できなくなりました。どうしてですか？</a>
- <li><a href="#faq5.4">5.4 IMEの読み上げとBEPの読み上げの音量のバランスを取りたいのですが。</a>
-</ul>
-<dt>編集作業の状態確認
-<dd><ul>
- <li><a href="#faq6.1">6.1 カーソル行を確認読みするコマンドは何ですか？</a>
- <li><a href="#faq6.2">6.2 カーソル文字を確認するコマンドは何ですか？</a>
- <li><a href="#faq6.3">6.3 どうすればMessageのechoをもう一度確認出来ますか？</a>
- <li><a href="#faq6.4">6.4 どうすればモード行のの確認が出来ますか？</a>
- <li><a href="#faq6.5">6.5 カーソルの位置を確認したいのですが。</a>
- <li><a href="#faq6.6">6.6 バッファの名前を確認したいのですが。</a>
- <li><a href="#faq6.7">6.7 バッファの対象ファイル名を確認したいのですが。</a>
- <li><a href="#faq6.8">6.8 編集時のBEP音声コマンドのキーマップの情報を得たいのですが。</a>
- <li><a href="#faq6.9">6.9 編集時のBEP音声コマンドの詳細情報を得たいのですが。</a>
- <li><a href="#faq6.10">6.10 現在時刻を知りたいのですが。</a>
-</ul>
-<dt>BEP(Meadow/Emacs)で便利なこと
-<dd><ul>
- <li><a href="#faq7.1">7.1 BEPで日常の作業を行う情報はどこから得られますか？</a>
- <li><a href="#faq7.2">7.2 DOSプロンプトのスクリーンリーダー環境はBEPだけで実現出来ますか？</a>
- <li><a href="#faq7.3">7.3 BEPで利用可能なMUA (mailer) News Reader は何がありますか？</a>
- <li><a href="#faq7.4">7.4 BEPでtelnet は使えますか？</a>
- <li><a href="#faq7.5">7.5 BEPでftp は使えますか？</a>
- <li><a href="#faq7.6">7.6 BEPでWWWの閲覧はできますか？</a>
- <li><a href="#faq7.7">7.7 BEPでHTML編集が楽に出来るのは本当ですか？</a>
- <li><a href="#faq7.8">7.8 BEPでTeXの編集は出来ますか？</a>
- <li><a href="#faq7.9">7.9 BEPでperl-mode は利用出来ますか？</a>
- <li><a href="#faq7.10">7.10 BEPで電子ブック(辞書など)はどの様に利用するのですか？</a>
- <li><a href="#faq7.11">7.11 BEPでスペルチェックは出来ますか？</a>
- <li><a href="#faq7.12">7.12 Termモードって何ですか？</a>
- <li><a href="#faq7.13">7.13 Meadowを使っています。自分が使いたいelispパッケージを取ってきたのですが、mule hogehogeとかしてインストールしなさいと書いてあるのですが、どこにもそのようなコマンドはありません。助けて?</a>
-</ul>
-<dt>BEP(Meadow/Emacs)で楽しめること
-<dd><ul>
- <li><a href="#faq8.1">8.1 BEPを使って楽しめる方法の情報はどこで得られますか？</a>
- <li><a href="#faq8.2">8.2 BEPでカレンダーを引けるのは本当ですか？</a>
- <li><a href="#faq8.3">8.3 BEPでスケジュール管理ができるのは本当ですか？</a>
- <li><a href="#faq8.4">8.4 M-x doctor って何ですか？</a>
- <li><a href="#faq8.5">8.5 M-x doctorすると、Meadowで挙動がおかしいのですが、どうしたらよいですか？</a>
- <li><a href="#faq8.6">8.6 M-x gomokuって何ですか？</a>
- <li><a href="#faq8.7">8.7 M-x dunnetって何ですか？</a>
-</ul>
-<dt>Linux環境でのBEP
-<dd><ul>
- <li><a href="#faq9.1">9.1 BEP for Linux を使っているとディスクの色々なところに core 
-     という大きなファイルができてしまいます。どうしてですか？この core というファイル
-     が作られないようにする方法はありますか？</a>
-</ul>
-<dt>その他の質問
-<dd><ul>
- <li><a href="#faq10.1">10.1 Mule,Emacs,Meadowの歴史について教えてください。</a>
-</ul>
+ <dt>一般的な情報
+ <dd><ul>
+      <li><a href="#faq1.1">1.1 BEPとは何ですか？</a>
+      <li><a href="#faq1.2">1.2 GNU Emacsとは何ですか？</a>
+      <li><a href="#faq1.3">1.3 Emacsの情報はどこから手に入りますか？</a>
+      <li><a href="#faq1.4">1.4 Meadowとは何ですか？</a>
+      <li><a href="#faq1.5">1.5 Meadowの情報はどこから手に入りますか？</a>
+      <li><a href="#faq1.6">1.6 BEPの最新バージョンはいくつですか？</a>
+      <li><a href="#faq1.7">1.7 BEPのメーリングリストはありますか？</a>
+      <li><a href="#faq1.8">1.8 BEPのメーリングリストに入るにはどうしたらよいです
+	   か？</a> 
+      <li><a href="#faq1.9">1.9 BEPのメーリングリストをやめるにはどうしたらよいで
+	   すか？</a>
+      <li><a href="#faq1.10">1.10 BEPのメーリングリストの過去記事の検索はできますか？
+	   </a>
+      <li><a href="#faq1.11">1.11 BEP には日本語のマニュアルがありますか？</a>
+      <li><a href="#faq1.12">1.12 BEP という名前の由来は？</a>
+      <li><a href="#faq1.13">1.13 BEPの著作権はどうなっていますか？</a>
+      <li><a href="#faq1.14">1.14 MeadowやEmacsの著作権について教えてください。</a>
+      <li><a href="#faq1.15">1.15 この FAQ はどこから手に入れる事ができますか？</a>
+      <li><a href="#faq1.16">1.16 この FAQ や、マニュアルで書かれている C-c や M-x とは何ですか？</a>
+      <li><a href="#faq1.17">1.17 BEPを使い始めるときに読む解説書はありますか？</a>
+      <li><a href="#faq1.18">1.18 BEPにとても興味があります。音声のデモなどは無いの
+	   ですか？</a>
+     </ul>
+ <dt>インストールに関する疑問
+ <dd><ul>
+      <li><a href="#faq2.1">2.1 パッケージの解凍(展開)ができないのですが？</a>
+      <li><a href="#faq2.2">2.2 SAPIとは何ですか？</a>
+      <li><a href="#faq2.3">2.3 ホームディレクトリって何ですか？</a>
+      <li><a href="#faq2.4">2.4 .emacsって何ですか？</a>
+      <li><a href="#faq2.5">2.5 ~/って何ですか？</a>
+      <li><a href="#faq2.6">2.6 BEP が起動しません。</a>
+      <li><a href="#faq2.7">2.7 BEP(Emacs/Meadow)が終了出来ません。</a>
+      <li><a href="#faq2.8">2.8 BEPが起動しましたが、どうすればいいか分かりません。</a>
+      <li><a href="#faq2.9">2.9 BEP をアンインストールするにはどうすれば良いですか？</a>
+      <li><a href="#faq2.10">2.10 Emacs/Meadowをアンインストールするには、どうしたらよいですか？</a>
+     </ul>
+ <dt>Windows用各スクリーンリーダーとの相性について
+ <dd><ul>
+      <li><a href="#faq3.1">3.1 BEPを入れたのにWindowsの画面を読んでくれません。</a>
+      <li><a href="#faq3.2">3.2 BEPと各スクリーンリーダーは、一緒に使うことはできますか？</a>
+      <li><a href="#faq3.3">3.3 2000readerを入れているとMeadowのinstall.exeがエラー終了します。</a>
+      <li><a href="#faq3.4">3.4 outSPOKENや、JAWSと一緒に使うとBEPの音とスクリーンリーダーがしゃべる音とが２重に聞こえます。両者を共存させる方法はないですか?</a>
+     </ul>
+ <dt>Emacsに関連した基礎知識
+ <dd><ul>
+      <li><a href="#faq4.1">4.1 C-nを押していくと、新しい行が挿入されてしまいます。何とかなりませんか？</a>
+      <li><a href="#faq4.2">4.2 マニュアルの移動コマンドには、C-hogehogeとか書いてますが、矢印キーなど使って移動はできませんか？</a>
+      <li><a href="#faq4.3">4.3 Infoとは何ですか？</a>
+      <li><a href="#faq4.4">4.4 ファイルとは何ですか？</a>
+      <li><a href="#faq4.5">4.5 バッファー(buffer)とは何ですか？</a>
+      <li><a href="#faq4.6">4.6 Windowとは何ですか？WindowsのWindowと違うのですか？</a>
+      <li><a href="#faq4.7">4.7 フレームとは何ですか？</a>
+      <li><a href="#faq4.8">4.8 エコーエリアと minibuffer はどう違うんですか</a>
+      <li><a href="#faq4.9">4.9 メジャーモードとマイナーモードは、何が違うのですか？</a>
+      <li><a href="#faq4.10">4.10 coding-systemとは何ですか？</a>
+     </ul>
+ <dt>BEPの使い方について
+ <dd><ul>
+      <li><a href="#faq5.1">5.1 突然BEPが喋らなくなってしまったのですが、</a>
+      <li><a href="#faq5.2">5.2 日本語と英語の音声の速度のひを変えられますか？</a>
+      <li><a href="#faq5.3">5.3 C-eで行末に移動できなくなりました。どうしてですか？</a>
+      <li><a href="#faq5.4">5.4 IMEの読み上げとBEPの読み上げの音量のバランスを取りたいのですが。</a>
+     </ul>
+ <dt>編集作業の状態確認
+ <dd><ul>
+      <li><a href="#faq6.1">6.1 カーソル行を確認読みするコマンドは何ですか？</a>
+      <li><a href="#faq6.2">6.2 カーソル文字を確認するコマンドは何ですか？</a>
+      <li><a href="#faq6.3">6.3 どうすればMessageのechoをもう一度確認出来ますか？</a>
+      <li><a href="#faq6.4">6.4 どうすればモード行のの確認が出来ますか？</a>
+      <li><a href="#faq6.5">6.5 カーソルの位置を確認したいのですが。</a>
+      <li><a href="#faq6.6">6.6 バッファの名前を確認したいのですが。</a>
+      <li><a href="#faq6.7">6.7 バッファの対象ファイル名を確認したいのですが。</a>
+      <li><a href="#faq6.8">6.8 編集時のBEP音声コマンドのキーマップの情報を得たいのですが。</a>
+      <li><a href="#faq6.9">6.9 編集時のBEP音声コマンドの詳細情報を得たいのですが。</a>
+      <li><a href="#faq6.10">6.10 現在時刻を知りたいのですが。</a>
+     </ul>
+ <dt>BEP(Meadow/Emacs)で便利なこと
+ <dd><ul>
+      <li><a href="#faq7.1">7.1 BEPで日常の作業を行う情報はどこから得られますか？</a>
+      <li><a href="#faq7.2">7.2 DOSプロンプトのスクリーンリーダー環境はBEPだけで実現出来ますか？</a>
+      <li><a href="#faq7.3">7.3 BEPで利用可能なMUA (mailer) News Reader は何がありますか？</a>
+      <li><a href="#faq7.4">7.4 BEPでtelnet は使えますか？</a>
+      <li><a href="#faq7.5">7.5 BEPでftp は使えますか？</a>
+      <li><a href="#faq7.6">7.6 BEPでWWWの閲覧はできますか？</a>
+      <li><a href="#faq7.7">7.7 BEPでHTML編集が楽に出来るのは本当ですか？</a>
+      <li><a href="#faq7.8">7.8 BEPでTeXの編集は出来ますか？</a>
+      <li><a href="#faq7.9">7.9 BEPでperl-mode は利用出来ますか？</a>
+      <li><a href="#faq7.10">7.10 BEPで電子ブック(辞書など)はどの様に利用するのですか？</a>
+      <li><a href="#faq7.11">7.11 BEPでスペルチェックは出来ますか？</a>
+      <li><a href="#faq7.12">7.12 Termモードって何ですか？</a>
+      <li><a href="#faq7.13">7.13 Meadowを使っています。自分が使いたいelispパッケージを取ってきたのですが、mule hogehogeとかしてインストールしなさいと書いてあるのですが、どこにもそのようなコマンドはありません。助けて?</a>
+     </ul>
+ <dt>BEP(Meadow/Emacs)で楽しめること
+ <dd><ul>
+      <li><a href="#faq8.1">8.1 BEPを使って楽しめる方法の情報はどこで得られますか？</a>
+      <li><a href="#faq8.2">8.2 BEPでカレンダーを引けるのは本当ですか？</a>
+      <li><a href="#faq8.3">8.3 BEPでスケジュール管理ができるのは本当ですか？</a>
+      <li><a href="#faq8.4">8.4 M-x doctor って何ですか？</a>
+      <li><a href="#faq8.5">8.5 M-x doctorすると、Meadowで挙動がおかしいのですが、どうしたらよいですか？</a>
+      <li><a href="#faq8.6">8.6 M-x gomokuって何ですか？</a>
+      <li><a href="#faq8.7">8.7 M-x dunnetって何ですか？</a>
+     </ul>
+ <dt>Linux環境でのBEP
+ <dd><ul>
+      <li><a href="#faq9.1">9.1 BEP for Linux を使っているとディスクの色々なところに core 
+	   という大きなファイルができてしまいます。どうしてですか？この core というファイル
+	   が作られないようにする方法はありますか？</a>
+     </ul>
+ <dt>その他の質問
+ <dd><ul>
+      <li><a href="#faq10.1">10.1 Mule,Emacs,Meadowの歴史について教えてください。</a>
+     </ul>
 </dl>
 
 <h3>一般的な情報</h3>
