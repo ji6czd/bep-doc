@@ -2,7 +2,7 @@ BEPインストーラの仕様(案)
 
 2002年1月10日
 渡辺隆行 <takayuki@la.shonan-it.ac.jp>
-$Id: InstallerSpec.txt,v 1.4 2002/01/10 12:15:25 watanabe Exp $
+$Id: InstallerSpec.txt,v 1.5 2002/01/10 21:39:19 mitsugu Exp $
 
 BEP (Bilingual Emacspeak Platform)は、視覚障害者用の日英2ヶ国語Emacs音声化
 システムです。Emacsのことをよく知らない初心者にBEPを使ってもらうための
@@ -17,7 +17,7 @@ ftp://ftp.m17n.org/pub/bep/win32/beta/bepw01-pre7.exe
 ----------------------------------------------------------------------------
 インストーラには以下の機能が必要です。
 
-1) インストーラ作成にはInstallShiield Developerを使う。
+1) インストーラ作成にはInstallShield Developerを使う。
    このソフトは視覚障害者でも何とか使えそうですし、このソフトで作成した
    インストーラは95Readerで読み上げ可能なことを確認しました。
 
@@ -55,7 +55,7 @@ ftp://ftp.m17n.org/pub/bep/win32/beta/bepw01-pre7.exe
   作ってあること。スクリプトに十分なコメントを入れてあること。
   
 8) インストーラは以下のコンポーネントで構成される。
-  （インストール先が C:\Meaodow の場合)
+  （インストール先が C:\Meadow の場合)
   ・Meadow本体のファイル群
     C:\Meadow\1.15\ 以下にインストールする。1.15\がMeadowのバージョン名。
   ・Emacs Lispファイル群
