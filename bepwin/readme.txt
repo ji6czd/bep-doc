@@ -1,7 +1,7 @@
        Bilingual Emacspeak Platform Windows版インストールの手引き
 Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2001/12/26 01:53:10 $
+最終更新日:$Date: 2001/12/26 02:02:09 $
 
 目次
 0 はじめに
@@ -13,7 +13,7 @@ Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
 4 Meadowの起動
 5 Q&A
 6 参考資料
-
+7 その他
 0 初めに
 このドキュメントでは、Bilingual Emacspeak Platform(以下BEPと略す)Windows
 版のインストールの方法を説明します。また、Emacs(Meadow)を使う上で参考に
@@ -151,8 +151,12 @@ http://emacspeak.sourceforge.net/
 BEPの元になった Emacspeak のページです。英語ですが、ユーザーズガイドなど
 のマニュアルが読めます。英語が得意な人は、読んでみると参考になるかもしれ
 ません。
+7 その他
+この簡単インストールパッケージに含まれるMeadowの本体とソースコードは、以下の場所から入
+手することができます。
+ftp://ftp.m17n.org/pub/mule/Windows/
 
-7. 連絡先
+8 連絡先
 BEPのプログラムに関する質問、バグレポートは、BEPメーリングリストへお願いします。メーリ
 ングリストへの参加の方法は、Q1を参照してください。
 その他、ご不明な点がありましたら、
