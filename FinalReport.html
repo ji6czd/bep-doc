@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<!-- $Id: FinalReport.html,v 1.33 2002/02/13 16:09:32 seiken Exp $
+<!-- $Id: FinalReport.html,v 1.34 2002/02/13 18:20:11 seiken Exp $
 -->
 
 
@@ -725,14 +725,14 @@ $ make install
 
 <dl>
  <dt>Emacspeakアーカイブの展開
- <dd><p>オリジナルEmacspeakの配布を任意のディレクトリで展開する。</p>
+ <dd><p>Sourceforgeより、<a href="ftp://ftp.sourceforge.net/pub/sourceforge/emacspeak/emacspeak-15.0.tar.gz">オリジナルEmacspeak</a>
+     を入手する。これを任意のディレクトリで展開する。</p>
  <dt>BEP配布パッチの適用
  <dd><p>Emacspeakのソースのトップディレクトリで以下のように実行する。<br>
-     <code>% patch -p1 &lt; path/to-bep-rel.patch</code><br>
+     <code>% patch -p1 &lt; path/to/bep-rel.patch</code><br>
      パッチとともにいくつかの新しいファイルも生成される。</p>
  <dt>Makeとインストール
- <dd><p><code>make; make install</code>としてシステムにインストールする。
-     </p>
+ <dd><p><code>make; make install</code>としてシステムにインストールする。</p>
  <dt>.emacsに設定を追加する
  <dd><p>Emacspeakのトップディレクトリにある"dot.emacs.add"ファイルの内容
      をユーザの.emacsファイルに追加する。環境に応じて適宜変更する必要が
