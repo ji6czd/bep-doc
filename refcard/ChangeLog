@@ -1,3 +1,8 @@
+2001-12-28  Koichi INOUE  <inoue@argv.org>
+
+	* dired.txt: Japanese reference of dired.
+	Written by Naoto Takahashi <ntakahas@m17n.org>.
+
 2001-10-01  Mitsugu SAKAMOTO  <mitsugu@argv.org>
 
 	* refcard.txt: The first version Japanese Emacs Reference.
