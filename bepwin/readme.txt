@@ -1,7 +1,7 @@
        Bilingual Emacspeak Platform Windows版インストールの手引き
 Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2001/12/26 01:50:37 $
+最終更新日:$Date: 2001/12/26 01:53:10 $
 
 目次
 0 はじめに
@@ -66,7 +66,7 @@ ProTalker97を入手することができます。
 http://www.jp.ibm.com/voiceland/pt20/
 
 (2)BEPのパッケージを、以下からダウンロードします。
-ftp://ftp.m17n.org/BEP/bepw01.exe
+ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
 
 (3)ダウンロードしたbepw01.exeをエクスプローラなどで実行します。
 実行すると、「BEPの解凍を行います。よろしいですか？」とたずねるダイアログボッ
