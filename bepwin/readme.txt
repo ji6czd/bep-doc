@@ -1,8 +1,8 @@
 Bilingual Emacspeak Platform Windows版インストールの手引き
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2001/12/27 19:06:44 $
-$Revision: 1.14 $
+最終更新日:$Date: 2001/12/28 00:59:48 $
+$Revision: 1.15 $
 
 目次
 0 はじめに
@@ -18,8 +18,8 @@ $Revision: 1.14 $
 8 連絡先
 
 0 初めに
-このドキュメントでは、Bilingual Emacspeak Platform(以下BEPと略す)Windows
-版のインストールの方法を説明します。また、Emacs(Meadow)を使う上で参考に
+このドキュメントでは、Bilingual Emacspeak Platform (以下BEPと略す) Windows
+版のインストールの方法を説明します。また、Emacs (Meadow) を使う上で参考に
 なる資料を紹介します。
 
 1 このパッケージについて
@@ -52,7 +52,7 @@ BEPを動かすための、 Emacs Lisp プログラムです。
 BEPを動作させるには、日本語と英語のSAPI(Speech API)対応の音声合成ライブラリが必要です。
 このパッケージには、音声合成ライブラリは含まれていません。各自でインストー
 ルする必要があります。
-(注意) SAPI には、Version 3と、Version 4があります。BEPは、Version 4でし
+(注意) SAPI には、Version 3 と、Version 4 があります。BEPは、Version 4 でし
 か動作しません。一部の環境で、スクリーンリーダーの反応が遅くなると言うよ
 うな理由で SAPI を Version 3 にしている場合は注意が必要です。
 
@@ -82,7 +82,7 @@ ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
 クスが出るので、[OK]を押してください。
 すると、展開先をたずねるダイアログボックスが出るので、良ければ[OK]を押し
 てください。
-ファイルを展開した後、Meadowをインストールして、インストールを終
+ファイルを展開した後、Meadowをインストールして、インストール作業を終
 了します。デフォルトでは、c:\Meadowというディレクトリの下にBEPのファイルがイ
 ンストールされます。
 
