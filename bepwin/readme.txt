@@ -1,7 +1,8 @@
        Bilingual Emacspeak Platform Windows”ÅƒCƒ“ƒXƒg[ƒ‹‚Ìèˆø‚«
 Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-ÅIXV“ú:$Date: 2001/12/26 02:03:23 $
+ÅIXV“ú:$Date: 2001/12/26 17:42:54 $
+$Revision: 1.6 $
 
 –ÚŸ
 0 ‚Í‚¶‚ß‚É
@@ -37,6 +38,7 @@ Windows”Å‚ÌGNU Emacs‚Å‚ ‚éMeadow–{‘Ì‚Å‚·B
 
 3 ƒCƒ“ƒXƒg[ƒ‹
 3-1 “®ìŠÂ‹«
+ˆÈ‰º‚ÌŠÂ‹«‚Å“®ìŠm”F‚ğs‚¢‚Ü‚µ‚½B
 (1) OS: Windows98/Windows98SE/WindowsME/Windows2000SP2
 (2) “ú–{Œê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ: IBM ProTalker 97
 (3) ‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ: Microsoft Text-to-Speech Engine
@@ -54,7 +56,9 @@ BEP‚ğ“®ì‚³‚¹‚é‚É‚ÍA“ú–{Œê‚Æ‰pŒê‚ÌSAPI(Speech API)‘Î‰‚Ì‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ª•K—
 ‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚É‚ÍAMicrosoft‚ÌText-to-SpeechƒGƒ“ƒWƒ“(‰pŒê”Å)
 ‚ğAg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
 http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
+http://download.microsoft.com/download/speechSDK/Install/4.0a/WIN98/EN-US/SAPI4SDKSUITE.exe
 http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE
+  iŒ»İæ“¾‚Å‚«‚È‚¢‚æ‚¤‚Å‚·j
 ‚Ì“ñ‚Â‚ğƒ_ƒEƒ“ƒ[ƒh‚µÀs‚µ‚Ä‚­‚¾‚³‚¢B
 
 (B)“ú–{Œê‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ
