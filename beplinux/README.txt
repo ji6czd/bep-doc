@@ -1,8 +1,8 @@
-Bilingual Emacspeak Platform - Release 03(Based on Emacspeak 16.0)
-Copyright (C) 1999-2002 Bilingual Emacspeak Project
+Bilingual Emacspeak Platform - Release 04(Based on Emacspeak 16.0)
+Copyright (C) 1999-2003 Bilingual Emacspeak Project
 Documented by: Koichi INOUE <inoue@argv.org>
-最終更新日:$Date: 2002/06/06 14:12:16 $
-$Revision: 1.9 $
+最終更新日:$Date: 2003/10/26 18:52:09 $
+$Revision: 1.10 $
 
 
 目次
@@ -22,6 +22,7 @@ $Revision: 1.9 $
 布パッケージです。Linux上でご使用になる場合、もしくはWindows上にて簡単イ
 ンストールパッケージをお使いに「ならない」場合に必要となります。
 
+なお、本パッケージはbep-rel03パッケージのバグフィックスです。
 
 1. Bilingual Emacspeak Platformとは？
 
@@ -77,10 +78,21 @@ http://emacspeak.sourceforge.net
 
 2.2 変更部分の適用
 
-emacspeak-16.0.tar.gzを適当な場所に展開します。
+emacspeak-16.0.tar.gzパッケージと本パッケージを適当な場所に展開します。
+/tmp/srcというディレクトリをつくって作業するとすると、以下のようにします。
+----
+% cd /tmp/src
+% tar xzvf パッケージの保存ディレクトリ/emacspeak-16.0.tar.gz
+% tar xzvf パッケージの保存ディレクトリ/emacspeak-16.0-bep-rel04.tar.gz
+----
+
 次に、本パッケージに含まれるファイルすべてを、ディレクトリ構造を保った状
 態で、展開したemacspeak-16.0ディレクトリ内にコピーします。同名のファイル
 がいくつか(Makefileなど)ありますが上書きしてください。
+----
+% cd emacspeak-16.0
+% cp -pr ../emacspeak-16.0-bep-rel04 .
+----
 
 これでBilingual Emacspeak Platformのlisp部配布ファイルが生成されます。
 
@@ -88,15 +100,28 @@ emacspeak-16.0.tar.gzを適当な場所に展開します。
 2.3 インストール
 
 emacspeak-16.0ディレクトリで以下を実行します。
+----
 % make config
 % make emacspeak
+----
 
 さらに、システム全体で利用する場合はrootになり、以下のようにインストール
 します。
+----
 # make install
+----
 
 最後に、emacspeak-16.0ディレクトリ内に作成されているdot.emacs.addファイ
 ルを.emacsに追加します。内容は適宜編集してください。
+
+注: 上記のようにすると、emacspeakの関連ファイルは/usr/share/emacsなど
+/usrを基準とした場所にインストールされます。Emacs本体がほかのディレクト
+リ(たとえば/usr/local)を基準とした場所にインストールされている場合など
+BEPのインストール先を変更したい場合は、prefix=で指定します。たとえば
+/usr/localディレクトリにインストールしたい場合は、make installの代わりに以下のようにします。
+----
+# make prefix=/usr/local install
+----
 
 2.4 BEPの起動
 
