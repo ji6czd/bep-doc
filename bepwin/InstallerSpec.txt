@@ -1,8 +1,9 @@
-BEPインストーラの仕様原案 (Ver 1.1)
+BEPインストーラの仕様(案) 
+Ver 1.1
 
 2002年1月26日
-渡辺隆行 <takayuki@la.shonan-it.ac.jp>
-$Id: InstallerSpec.txt,v 1.10 2002/01/26 10:48:59 watanabe Exp $
+BEP 渡辺隆行 <takayuki@la.shonan-it.ac.jp>
+$Id: InstallerSpec.txt,v 1.11 2002/02/08 16:45:45 watanabe Exp $
 
 BEP (Bilingual Emacspeak Platform)は、視覚障害者用の日英2ヶ国語Emacs音声化シ
 ステムです。インストーラに必要な機能を以下に述べます。
