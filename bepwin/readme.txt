@@ -1,8 +1,8 @@
-       Bilingual Emacspeak Platform Windows”ÅƒCƒ“ƒXƒg[ƒ‹‚ÌŽèˆø‚«
-Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
+Bilingual Emacspeak Platform Windows”ÅƒCƒ“ƒXƒg[ƒ‹‚ÌŽèˆø‚«
+Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-ÅIXV“ú:$Date: 2001/12/27 11:13:03 $
-$Revision: 1.13 $
+ÅIXV“ú:$Date: 2001/12/27 19:06:44 $
+$Revision: 1.14 $
 
 –ÚŽŸ
 0 ‚Í‚¶‚ß‚É
@@ -31,6 +31,7 @@ BEP‚ÍAŽ‹ŠoáŠQŽÒ‚ªGNU Emacs‚Æ‚¢‚¤ƒeƒLƒXƒgƒGƒfƒBƒ^‚ðA“ú‰p‚Qƒ–‘Œê‚Ì‰¹º
 
 2 ƒpƒbƒP[ƒW‚Ì“à—e
 ƒpƒbƒP[ƒW‚É‚ÍˆÈ‰º‚Ì‚à‚Ì‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+
 (1) Meadow 1.15pre1ˆêŽ®
 Windows”Å‚ÌGNU Emacs‚Å‚ ‚éMeadow–{‘Ì‚Å‚·B
 (2) Windows—pƒXƒs[ƒ`ƒT[ƒo(Speak.exe)
@@ -41,6 +42,7 @@ BEP‚ð“®‚©‚·‚½‚ß‚ÌA Emacs Lisp ƒvƒƒOƒ‰ƒ€‚Å‚·B
 3 ƒCƒ“ƒXƒg[ƒ‹
 3-1 “®ìŠÂ‹«
 ˆÈ‰º‚ÌŠÂ‹«‚Å“®ìŠm”F‚ðs‚¢‚Ü‚µ‚½B
+
 (1) OS: Windows98/Windows98SE/WindowsME/Windows2000SP2
 (2) “ú–{Œê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ: IBM ProTalker 97
 (3) ‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ: Microsoft Text-to-Speech Engine
@@ -57,8 +59,12 @@ BEP‚ð“®ì‚³‚¹‚é‚É‚ÍA“ú–{Œê‚Æ‰pŒê‚ÌSAPI(Speech API)‘Î‰ž‚Ì‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ª•K—
 (A)‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ
 ‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚É‚ÍAMicrosoft‚ÌText-to-SpeechƒGƒ“ƒWƒ“(‰pŒê”Å)
 ‚ðAŽg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+
+spchapi.exe(825KB)
 http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
+msttsL.exe (7.3MB)
 http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE
+
 ‚Ì“ñ‚Â‚ðƒ_ƒEƒ“ƒ[ƒh‚µŽÀs‚µ‚Ä‚­‚¾‚³‚¢B
 
 (B)“ú–{Œê‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ
@@ -68,7 +74,7 @@ Protalker97‚ÍAƒpƒ\ƒRƒ“ƒVƒ‡ƒbƒv‚Åw“ü‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
 ƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚ê‚ÎA•K—v‚È‚à‚Ì‚ª“ü‚Á‚Ä‚¢‚é‚Ì‚ÅAƒCƒ“ƒXƒg[ƒ‹‚·‚é•K
 —v‚ÍÝ‚è‚Ü‚¹‚ñB
 
-(2)BEP‚ÌƒpƒbƒP[ƒW‚ðAˆÈ‰º‚©‚çƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·B
+(2)BEP‚ÌƒpƒbƒP[ƒW‚ðAˆÈ‰º‚©‚çƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·B(14.3MB)
 ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
 
 (3)ƒ_ƒEƒ“ƒ[ƒh‚µ‚½bepw01.exe‚ðƒGƒNƒXƒvƒ[ƒ‰‚È‚Ç‚ÅŽÀs‚µ‚Ü‚·B
@@ -76,9 +82,10 @@ ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
 ƒNƒX‚ªo‚é‚Ì‚ÅA[OK]‚ð‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢B
 ‚·‚é‚ÆA“WŠJæ‚ð‚½‚¸‚Ë‚éƒ_ƒCƒAƒƒOƒ{ƒbƒNƒX‚ªo‚é‚Ì‚ÅA—Ç‚¯‚ê‚Î[OK]‚ð‰Ÿ‚µ
 ‚Ä‚­‚¾‚³‚¢B
-ƒtƒ@ƒCƒ‹‚ð“WŠJ‚µ‚½ŒãAMeadow‚ðÅI‘g—§‚Ä‚µ‚ÄAƒCƒ“ƒXƒg[ƒ‹‚ðI
+ƒtƒ@ƒCƒ‹‚ð“WŠJ‚µ‚½ŒãAMeadow‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚ÄAƒCƒ“ƒXƒg[ƒ‹‚ðI
 —¹‚µ‚Ü‚·BƒfƒtƒHƒ‹ƒg‚Å‚ÍAc:\Meadow‚Æ‚¢‚¤ƒfƒBƒŒƒNƒgƒŠ‚Ì‰º‚ÉBEP‚Ìƒtƒ@ƒCƒ‹‚ªƒC
 ƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B
+
 (’ˆÓ)
 BEP‚ÌƒCƒ“ƒXƒg[ƒ‹æ‚ðŽw’è‚·‚éê‡‚ÍAuC:\v‚Æ‚©AuD:\v‚È‚Ç‚Ì‚æ‚¤‚ÉAƒ‹[ƒg
 ƒfƒBƒŒƒNƒgƒŠ‚Ì’¼‰º‚É‚·‚é‚æ‚¤‚É‚µ‚Ä‚­‚¾‚³‚¢B
@@ -94,7 +101,7 @@ Meadow‚ÍAˆÈ‰º‚Ì‚æ‚¤‚É‚µ‚Ä‹N“®‚µ‚Ü‚·B
 (2)ã‰º–îˆóƒL[‚ðŽg‚Á‚ÄAuƒvƒƒOƒ‰ƒ€v‚ð‘I‚Ñ‚Ü‚·B
 (3)‰E–îˆóƒL[‚ð‰Ÿ‚µ‚Ü‚·B
 (4)ã‰º–îˆóƒL[‚ðŽg‚Á‚ÄAuMeadowv‚ð‘I‚Ñ‚Ü‚·B
-(5)‰E–îˆó‚«[‚ð‰Ÿ‚µ‚Ü‚·B
+(5)‰E–îˆóƒL[‚ð‰Ÿ‚µ‚Ü‚·B
 (6)‚±‚Ì’†‚ÉMeadow‚Ö‚ÌƒVƒ‡[ƒgƒJƒbƒg‚ÌƒAƒCƒRƒ“‚ª‚ ‚é‚Ì‚ÅA‘I‚ñ‚ÅƒGƒ“ƒ^[ƒL[
  ‚ð‰Ÿ‚µ‚Ü‚·B
 (7)‚±‚ê‚ÅMeadow‚ª‹N“®‚µ‚Ü‚µ‚½B‚µ‚Î‚ç‚­‚·‚é‚ÆA‰pŒê‚Å‚ÌƒAƒiƒEƒ“ƒXƒƒbƒZ[
@@ -103,7 +110,9 @@ Meadow‚ÍAˆÈ‰º‚Ì‚æ‚¤‚É‚µ‚Ä‹N“®‚µ‚Ü‚·B
 5 Q&A
 
 Q1: ‚¤‚Ü‚­s‚«‚Ü‚¹‚ñB
-A1: BEP‚ÉŠÖ‚µ‚Ä‚Ì‹c˜_‚ÍABEPƒ[ƒŠƒ“ƒOƒŠƒXƒg‚Ås‚í‚ê‚Ä‚¢‚Ü‚·BˆÈ‰º‚ÌƒAƒhƒŒƒX
+A1: BEP‚ÉŠÖ‚µ‚Ä‚Ì‹c˜_‚ÍABEPƒ[ƒŠƒ“ƒOƒŠƒXƒg‚Ås‚í‚ê‚Ä‚¢‚Ü‚·B‚Ü‚¸ABEP
+ƒ[ƒŠƒ“ƒOƒŠƒXƒg‚Ö‚ÌŽQ‰Á‚ÌŽè‘±‚«‚ðs‚Á‚Ä‚­‚¾‚³‚¢B
+ˆÈ‰º‚ÌƒAƒhƒŒƒX
 bep-subscribe@argv.org
 ‚Ö‹ó‚Ìƒ[ƒ‹‚ð‘—‚Á‚Ä‚­‚¾‚³‚¢BŠm”F‚Ìƒ[ƒ‹‚ª‘—‚ç‚ê‚Ä‚«‚Ü‚·‚Ì‚ÅAŽwŽ¦‚É]‚Á
 ‚Ä•ÔM‚µ‚Ä‚­‚¾‚³‚¢B
@@ -124,8 +133,8 @@ Q4: Meadow‚ÌŽg‚¢•û‚ðŠo‚¦‚½‚¢‚Ì‚Å‚·‚ªB
 A4: Meadow‚ð‹N“®‚µ‚½ŒãACTRL‚ð‰Ÿ‚µ‚È‚ª‚çh‚ð‰Ÿ‚µ‚Ä‚©‚çAt‚ð‰Ÿ‚µ‚Ü‚·B‚·‚é‚ÆA
 Meadow‚Ìƒ`ƒ…[ƒgƒŠƒAƒ‹‚ª•\Ž¦‚³‚ê‚Ü‚·B
 
-Q5: ‚µ‚Î‚ç‚­Žg‚Á‚Ä‚¢‚é‚ÆBEP‚Ì‰¹‚ª–Â‚ç‚È‚­‚È‚é‚Ì‚Å‚·‚ªB
-A5: Œ»Ý‚ÌBEP‚Å‚ÍA‰½‚ç‚©‚ÌŒ´ˆö‚ÅSpeak.exe‚©‚ç‰¹‚ªo‚È‚¢ó‘Ô‚É‚È‚é‚±‚Æ‚ª
+Q5: ‚µ‚Î‚ç‚­Žg‚Á‚Ä‚¢‚é‚ÆBEP‚Ì‰¹º‚ª–Â‚ç‚È‚­‚È‚é‚Ì‚Å‚·‚ªB
+A5: Œ»Ý‚ÌBEP‚Å‚ÍA‰½‚ç‚©‚ÌŒ´ˆö‚Å Speak.exe ‚©‚ç‰¹º‚ªo‚È‚¢ó‘Ô‚É‚È‚é‚±‚Æ‚ª
 ‚ ‚è‚Ü‚·B
 CTRL‚ð‰Ÿ‚µ‚È‚ª‚çe‚ð‰Ÿ‚µ‚Ä‚©‚çACTRL‚ð‰Ÿ‚µ‚È‚ª‚çs‚ð‰Ÿ‚µ‚ÄASpeak.exe‚ðÄ‹N“®
 ‚³‚¹‚Ä‚­‚¾‚³‚¢B
