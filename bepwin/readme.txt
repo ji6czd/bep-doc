@@ -2,8 +2,8 @@ Bilingual Emacspeak Platform Windows版インストールの手引き
 
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2002/01/05 22:39:14 $
-$Revision: 1.20 $
+最終更新日:$Date: 2002/01/05 23:15:27 $
+$Revision: 1.21 $
 
 
 目次
@@ -100,7 +100,7 @@ BEPは、視覚障害者が GNU Emacs というテキストエディタを、日英２ヶ国語の
        $Bなどは内部的に IBM ProTalker 97 を使用しています。したがって、
        これらのソフトウェアが既にインストールされている場合は、特に何
        もしなくても BEP は動作します。ただし、ライセンスの関係上 BEP 
-       用には別途単体版の ProtTalker を購入する必要があります。
+       用には別途単体版の ProTalker を購入する必要があります。
  
        [注意] すでに ProTalker が動作している環境で更に単体版の 
        ProTalker をインストールすると、既存の環境がおかしくなる可能性
