@@ -1,8 +1,8 @@
 Bilingual Emacspeak Platform - Release 20020214(Based on Emacspeak 16.0)
 Copyright (C) 1999-2002 Bilingual Emacspeak Project
 Documented by: Koichi INOUE <inoue@argv.org>
-最終更新日:$Date: 2002/05/10 12:13:05 $
-$Revision: 1.7 $
+最終更新日:$Date: 2002/05/10 14:29:03 $
+$Revision: 1.8 $
 
 
 目次
@@ -116,7 +116,7 @@ M-x load-bemacspeak
 Emacs/MeadowとBEPの使い方を学ぶのに役に立ちそうな Web を紹介します。
 
 (1) Meadow FAQ
-　　http://faq.meadowy.org/
+　　http://meadow-faq.sourceforge.net/
 
     Meadow についての質問と回答集です。Meadow についてわからないことが
     あったら、まずここを見ましょう。
