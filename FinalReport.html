@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<!-- $Id: FinalReport.html,v 1.10 2002/02/09 09:10:27 watanabe Exp $
+<!-- $Id: FinalReport.html,v 1.11 2002/02/09 09:53:24 seiken Exp $
 -->
 
 <h1>「日米2ヶ国語Emacs音声化システムBEPによるLinuxの音声利用」<br>成果報告書</h1>
@@ -324,48 +324,66 @@ tts_sync_state <punc-mode> <capitaloze> <allcaps-beep> <split-caps> <rate> :
 <h2>5. 入手方法及びインストールの手順</h2>
 
 <p>当プロジェクトで開発した部分はGNU GPLに従って、<a
-href="http://www.argv.org/bep">BEPのWebサイト</a>で公開している。入手方法やイン
-ストール手順の詳細は<a href="http://www.argv.org/bep/#howtoget">「入手方法」</a>
-に書いてあるが、以下に概略を述べる。</p>
+href="http://www.argv.org/bep">BEPのWebサイト</a>で公開している</p>
 
-<h3>Linux版</h3>
+<h3>5.1 Linux版BEPのインストール方法</h3>
 
-宿題
-	・ダウンロード方法とインストール手順
+<p>Linux版のインストール手順は大きく分けて三つのプロセスになる。日本語と
+英語のTTSエンジンのインストール、Linux用スピーチサーバのコンパイルとイン
+ストール、BEPのlispかっぺーじのインストールである。それぞれについて開設
+する。</p>
 
-<h3>Windows(1)版のインストール</h3>
+<h4>日本語TTSエンジンのインストール</h4>
 
-<DL>
- <DT>(1) SAPI 4と英語エンジンのインストール
- <DD><a href="http://activex.microsoft.com/activex/controls/sapi/spchapi.exe">
-   spchapi.exe</a>と
-     <a href="http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE">msttsL.exe</a>
-     をダウンロードし、各ファイルを実行してください。SAPI 4のランタイムバイナリ
-と英語の音声合成エンジンがインストールされます。
-     
- <DT>(2) 日本語エンジンのインストール
- <DD>SAPI 4対応のProTALKERを既に使っている場合はこのインストール
-     作業は不要です。インストールの詳細は次章の
-     <A href="download.html#Jpengine">日本語エンジン</A>の項を参照してください。
-     なお、ProTalkerはIBMの製品です。
+<p>後から書きます。Vectorで購入したときのファイルレイアウトをご存じの方
+いらっしゃいませんよね？</p>
 
- <DT>(3) Bilingual Emacspeak組み込み済みMeadowのインストール
- <dd><p><a href="ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe">BEPのパッ
-     ケージ</a>をダウンロードします。</p>
-     <p>ダウンロードしたファイルをExplorerなどで実行し、指示に従ってイン
-     ストールを行ってください。</p>
+<h4>英語TTSエンジンのインストール</h4>
 
- <DT>(4) Meadowの開始
- <DD>スタートメニューから「プログラム」、「Meadow」、「Meadow」を
-     選んでMeadowを起動してください。しばらーく待つと喋るはずです。スピーチサー
-     バの起動に時間がかかるので、10秒くらいは待ってくださいね。
-</DL>
+<h4>Linux用スピーチサーバのインストール</h4>
+
+<h3>5.2 Windows版BEPのインストール</h3>
+
+<p>Windows版のインストール手順は大きく分けて二つのプロセスになる。日本語と
+英語のTTSエンジンのインストール、BEPのWindows版パッケージのインストール
+である。それぞれについて開設する。</p>
+
+<h4>Microsoft Speech APIのインストール</h4>
+
+<p>Microsoftのサイトから<a
+href="http://activex.microsoft.com/activex/controls/sapi/spchapi.exe">spchapi.exe</a>
+をダウンロードし、実行します。自動的に必要なファイルがシステムにインストー
+ルされます。システムの状況によってはシステムの再起動が必要な場合がありま
+す。</p>
+
+<h4>日本語TTSエンジンのインストール</h4>
+
+<h4>英語TTSエンジンのインストール</h4>
+
+<p>Microsoftのサイトから<a href="http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE">msttsL.exe</a>
+をダウンロードし、実行します。システムの指示に従ってインストールを行って
+ください。<p>
+
+<h4>Bilingual Emacspeak組み込み済みMeadowのインストール</h4>
+
+<P><p><a href="ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe">BEP
+のパッケージ</a>をダウンロードします。</p>
+<p>ダウンロードしたファイルをExplorerなどで実行し、指示に従ってインストー
+ルを行ってください。</p>
 
 
 <h2>6. 操作仕様</h2>
 
-井上・切明君が内容を考える
+<p>BEPの簡単な操作方法、バイリンガルの使い方、音声を使ったEmacsアプリケー
+ションの簡単な使い方について述べる。</p>
 
+<h3>6.1 BEPの起動方法</h3>
+
+<h3>6.2 基本的な読み上げコマンド</h3>
+
+<h3>言語切り替えなどのコマンド</h3>
+
+<h3>Emacsアプリケーションの音声利用</h3>
 
 <h2>7. 検査方法</h2>
 
