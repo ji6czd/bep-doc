@@ -2,8 +2,8 @@ Bilingual Emacspeak Platform Windows$BHG%$%s%9%H!<%k$N<j0z$-(B
 
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-$B:G=*99?7F|(B:$Date: 2002/01/06 14:16:10 $
-$Revision: 1.22 $
+$B:G=*99?7F|(B:$Date: 2002/01/08 03:33:50 $
+$Revision: 1.23 $
 
 
 $BL\<!(B
@@ -124,8 +124,8 @@ BEP$B$O!";k3P>c32<T$,(B GNU Emacs $B$H$$$&%F%-%9%H%(%G%#%?$r!"F|1Q#2%v9q8l$N
     BEP $B$N%U%!%$%k$,%$%s%9%H!<%k$5$l$^$9!#(B
 
     [$BCm0U(B] BEP $B$N%$%s%9%H!<%k@h$r;XDj$9$k>l9g$O!"!V(BC:\Program Files$B!W(B $B$N(B
-    $B$h$&$K!"%9%Z!<%9$,4^$^$l$k%G%#%l%/%H%j$O;XDj$7$J$$$G$/$@$5$$!#$=$N$h(B
-    $B$&$J%G%#%l%/%H%j$K%$%s%9%H!<%k$r$9$k$H!"8=:_$G$O!"(BMeadow$B$,@5>o$KF0:n$7$^$;$s!#(B
+    $B$h$&$K!"%9%Z!<%9$,4^$^$l$k%G%#%l%/%H%j$O;XDj$7$J$$$G$/$@$5$$!#$^$?!"(B
+    $BF|K\8l$NL>A0$N%G%#%l%/%H%j$b;XDj$7$J$$$G$/$@$5$$!#$=$l$i$N$h$&$J%G%#%l%/%H%j$K%$%s%9%H!<%k$r$9$k$H!"8=:_$G$O!"(BMeadow$B$,@5>o$KF0:n$7$^$;$s!#(B
 
 
 4. Meadow $B$N5/F0(B
