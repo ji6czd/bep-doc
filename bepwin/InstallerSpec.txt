@@ -2,14 +2,14 @@ BEPインストーラの仕様原案 (Ver 1.1)
 
 2002年1月12日
 渡辺隆行 <takayuki@la.shonan-it.ac.jp>
-$Id: InstallerSpec.txt,v 1.7 2002/01/13 08:27:05 watanabe Exp $
+$Id: InstallerSpec.txt,v 1.8 2002/01/13 13:11:54 mitsugu Exp $
 
 BEP (Bilingual Emacspeak Platform)は、視覚障害者用の日英2ヶ国語Emacs音声化
 システムです。Emacsのことをよく知らない初心者にBEPを使ってもらうための
 BEPのインストーラを作ってください。インストーラに必要な機能を以下に述べます。
 
 なお、我々が作った低機能な簡単インストーラを以下のftpサイトで公開しています。
-ftp://ftp.m17n.org/pub/bep/win32/beta/bepw01-pre7.exe
+ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
 一度これをインストールしていただくと、どういうファイルを配布するか、どういう
 ものを作るべきか、BEPはどういうものかなど、今回のインストーラを作成する上で
 理解の助けになる情報が得られると思います。
