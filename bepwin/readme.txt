@@ -1,7 +1,7 @@
        Bilingual Emacspeak Platform Windows版インストールの手引き
 Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2001/12/26 01:26:38 $
+最終更新日:$Date: 2001/12/26 01:50:37 $
 
 目次
 0 はじめに
@@ -41,9 +41,12 @@ Windows版のGNU EmacsであるMeadow本体です。
 
 3-2 インストール方法
 (1)音声合成ライブラリをインストールします。
-BEPを動作させるには、日本語と英語の音声合成ライブラリが必要です。
+BEPを動作させるには、日本語と英語のSAPI(Speech API)対応の音声合成ライブラリが必要です。
 このパッケージには、音声合成ライブラリは含まれていません。各自でインストー
 ルする必要があります。
+(注意) SAPI には、Version 3と、Version 4があります。BEPは、Version 4でし
+か動作しません。一部の環境で、スクリーンリーダーの反応が遅くなると言うよ
+うな理由で SAPI を Version 3 にしている場合は注意が必要です。
 
 (A)英語用音声合成ライブラリ
 英語用音声合成ライブラリには、MicrosoftのText-to-Speechエンジン(英語版)
