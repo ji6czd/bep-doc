@@ -1,8 +1,8 @@
        Bilingual Emacspeak Platform Windows”ÅƒCƒ“ƒXƒg[ƒ‹‚Ìèˆø‚«
 Copyright (C) 2001 BEP(Bilingual Emacspeak Project)
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-ÅIXV“ú:$Date: 2001/12/26 17:42:54 $
-$Revision: 1.6 $
+ÅIXV“ú:$Date: 2001/12/26 17:53:03 $
+$Revision: 1.7 $
 
 –ÚŸ
 0 ‚Í‚¶‚ß‚É
@@ -56,9 +56,7 @@ BEP‚ğ“®ì‚³‚¹‚é‚É‚ÍA“ú–{Œê‚Æ‰pŒê‚ÌSAPI(Speech API)‘Î‰‚Ì‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ª•K—
 ‰pŒê—p‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚É‚ÍAMicrosoft‚ÌText-to-SpeechƒGƒ“ƒWƒ“(‰pŒê”Å)
 ‚ğAg—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
 http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
-http://download.microsoft.com/download/speechSDK/Install/4.0a/WIN98/EN-US/SAPI4SDKSUITE.exe
 http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE
-  iŒ»İæ“¾‚Å‚«‚È‚¢‚æ‚¤‚Å‚·j
 ‚Ì“ñ‚Â‚ğƒ_ƒEƒ“ƒ[ƒh‚µÀs‚µ‚Ä‚­‚¾‚³‚¢B
 
 (B)“ú–{Œê‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ
@@ -67,8 +65,8 @@ Protalker97‚ÍAƒpƒ\ƒRƒ“ƒVƒ‡ƒbƒv‚Åw“ü‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
 ‚à‚µAAIBMƒz[ƒ€ƒy[ƒWƒŠ[ƒ_[‚âAPC-Talker/VDM100WAJAWS‚È‚Ç‚ª
 ƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚ê‚ÎA•K—v‚È‚à‚Ì‚ª“ü‚Á‚Ä‚¢‚é‚Ì‚ÅAƒCƒ“ƒXƒg[ƒ‹‚·‚é•K
 —v‚Íİ‚è‚Ü‚¹‚ñB
-‚Ü‚½AˆÈ‰º‚ÌURL‚©‚ç•]‰¿‚«‚Á‚Æ‚ğƒ_ƒEƒ“ƒ[ƒh‚·‚ê‚ÎA•]‰¿—p‚Æ‚µ‚Ä
-ProTalker97‚ğ“üè‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+‚Ü‚½AProTalker97‚Ì•]‰¿–Ú“I‚Å‚ ‚ê‚ÎAˆÈ‰º‚ÌURL‚©‚ç•]‰¿‚«‚Á‚Æ‚ğƒ_ƒEƒ“ƒ[
+ƒh‚µ‚Ä—˜—p‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
 http://www.jp.ibm.com/voiceland/pt20/
 
 (2)BEP‚ÌƒpƒbƒP[ƒW‚ğAˆÈ‰º‚©‚çƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·B
