@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<!-- $Id: FinalReport.html,v 1.32 2002/02/13 06:04:50 watanabe Exp $
+<!-- $Id: FinalReport.html,v 1.33 2002/02/13 16:09:32 seiken Exp $
 -->
 
 
@@ -719,9 +719,25 @@ $ make install
 
 <h4>5.1.4 BEPパッケージのインストール方法</h4>
 
-<p>！！！！！！！！！！！！！</p>
-<p>おそらくbep-raman-diffのREADME-ja.txtを使う。</p>
 
+<p>BEPのlispパッケージは、オリジナルEmacspeakに対するパッチの形で提供さ
+れている。以下のようにしてインストールを行う。</p>
+
+<dl>
+ <dt>Emacspeakアーカイブの展開
+ <dd><p>オリジナルEmacspeakの配布を任意のディレクトリで展開する。</p>
+ <dt>BEP配布パッチの適用
+ <dd><p>Emacspeakのソースのトップディレクトリで以下のように実行する。<br>
+     <code>% patch -p1 &lt; path/to-bep-rel.patch</code><br>
+     パッチとともにいくつかの新しいファイルも生成される。</p>
+ <dt>Makeとインストール
+ <dd><p><code>make; make install</code>としてシステムにインストールする。
+     </p>
+ <dt>.emacsに設定を追加する
+ <dd><p>Emacspeakのトップディレクトリにある"dot.emacs.add"ファイルの内容
+     をユーザの.emacsファイルに追加する。環境に応じて適宜変更する必要が
+     あるだろう。</p>
+</dl>
 
 <h3><a name="52WinInstall">5.2 Windows版BEPのインストール方法</a></h3>
 
