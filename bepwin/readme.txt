@@ -2,8 +2,8 @@ Bilingual Emacspeak Platform Windows$BHG%$%s%9%H!<%k$N<j0z$-(B
 
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-$B:G=*99?7F|(B:$Date: 2002/06/02 07:27:43 $
-$Revision: 1.26 $
+$B:G=*99?7F|(B:$Date: 2002/06/02 09:12:47 $
+$Revision: 1.27 $
 
 
 $BL\<!(B
@@ -47,7 +47,7 @@ BEP$B$O!";k3P>c32<T$,(B GNU Emacs $B$H$$$&%F%-%9%H%(%G%#%?$r!"F|1Q#2%v9q8l$N
 
 (2) Windows $BMQ%9%T!<%A%5!<%P(B (speakP.exe, Speakt.exe)
     BEP$B$N(B $B2;@<$r9g@.$9$k$?$a$N%W%m%0%i%`$G$9!#(B
-SpeakP.exe$B$O!"(BIBM ProTalker97$BMQ!"(BSpeakt.exe$B$O!"El<G%i%i%\%$%9(B2001$BMQ$G$9!#(B
+    SpeakP.exe$B$O!"(BIBM ProTalker97$BMQ!"(BSpeakt.exe$B$O!"El<G%i%i%\%$%9(B2001$BMQ$G$9!#(B
 
 (3) BEP $B$N%W%m%0%i%`K\BN(B
     BEP $B$rF0$+$9$?$a$N!"(B Emacs Lisp $B%W%m%0%i%`$G$9!#(B
@@ -83,20 +83,15 @@ SpeakP.exe$B$O!"(BIBM ProTalker97$BMQ!"(BSpeakt.exe$B$O!"El<G%i%i%\%$%9(B2
     a) $B1Q8lMQ2;@<9g@.%i%$%V%i%j(B
 
      $B!!1Q8lMQ2;@<9g@.%i%$%V%i%j$K$O!"(BMicrosoft $B$N1Q8lHG(B Text-to-Speech 
-       $B%(%s%8%s$r;HMQ$7$^$9!#0J2<$NFs$D$r%@%&%s%m!<%I$7$F<B9T$7$F2<$5(B
-       $B$$!#<B9T$9$k$H%$%s%9%H!<%k$N%@%$%"%m%0%\%C%/%9$,=P$k$N$G!";X<($K(B
-       $B$7$?$,$C$F%$%s%9%H!<%k$7$F$/$@$5$$!#(B
-
-       spchapi.exe (825KB)
-$B!!!!(B   http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
-
-       msttsL.exe (7.3MB)
-$B!!!!(B   http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE
+       $B%(%s%8%s$r;HMQ$7$^$9!#$*;H$$$N%3%s%T%e!<%?$K1Q8eMQ2;@<%i%$%V%i%j(B
+       $B$,L5$$>l9g$O!"K\(B BEP $B%Q%C%1!<%8$,<+F0E*$K%@%&%s%m!<%I$7$F!"%$%s%9(B
+       $B%H!<%k$7$^$9!#(B
 
     b) $BF|K\8l2;@<9g@.%i%$%V%i%j(B
 
-       $BF|K\8l2;@<9g@.%i%$%V%i%j$N(B IBM ProTalker 97 $B$O!"(BIBM $B$N>&IJ(B 
-       (9800$B1_(B) $B$G$9!#(BProtalker 97 $B$O!"2;@<9g@.$@$1$NC1BN$N>&IJ$H$7$F(B
+       $BF|K\8l2;@<9g@.%i%$%V%i%j$N(B IBM ProTalker 97 $B$^$?$OEl<G%i%i%\%$%9(B
+       2001$B$O!"$=$l$>$l(B IBM $B$HEl<G$N>&IJ(B 
+        $B$G$9!#(BProtalker 97 $B$HEl<G%i%i%\%$%9(B2001$B$O!"2;@<9g@.$@$1$NC1BN$N>&IJ$H$7$F(B
        $B%Q%=%3%s%7%g%C%W$G9XF~$G$-$^$9!#(B
 
        IBM $B$N%[!<%`%Z!<%8%j!<%@!<$d!"(BPC-Talker/VDM100W $B$"$k$$$O(B JAWS 
@@ -112,23 +107,11 @@ SpeakP.exe$B$O!"(BIBM ProTalker97$BMQ!"(BSpeakt.exe$B$O!"El<G%i%i%\%$%9(B2
 
 (2) BEP$B$N%Q%C%1!<%8$r!"0J2<$+$i%@%&%s%m!<%I$7$^$9!#(B(14.3MB)
 
-$B!!!!(Bftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
+$B!!!!(Bftp://ftp.m17n.org/pub/bep/win32/release/bepw02.exe
 
-(3) $B%@%&%s%m!<%I$7$?(B bepw01.exe $B$r%(%/%9%W%m!<%i$J$I$G<B9T$7$^$9!#(B
-
-    $B<B9T$9$k$H!"!V(BBEP $B$N%$%s%9%H!<%k$r9T$$$^$9!#$h$m$7$$$G$9$+!)!W$H$?$:$M$k%@(B
-    $B%$%"%m%0%\%C%/%9$,=P$k$N$G!"(B[OK] $B$r2!$7$F$/$@$5$$!#$9$k$H!"%$%s%9%H!<%k@h(B
-    $B$r$?$:$M$k%@%$%"%m%0%\%C%/%9$,=P$k$N$G!"NI$1$l$P(B [OK] $B$r2!$7$F$/$@(B
-    $B$5$$!#(B
-
-    $B%U%!%$%k$rE83+$7$?8e!"(BMeadow $B$r%$%s%9%H!<%k$7$F!"%$%s%9%H!<%k:n6H(B
-    $B$r=*N;$7$^$9!#%G%U%)%k%H$G$O!"(Bc:\Meadow $B$H$$$&%G%#%l%/%H%j$N2<$K(B 
-    BEP $B$N%U%!%$%k$,%$%s%9%H!<%k$5$l$^$9!#(B
-
-    [$BCm0U(B] BEP $B$N%$%s%9%H!<%k@h$r;XDj$9$k>l9g$O!"!V(BC:\Program Files$B!W(B $B$N(B
-    $B$h$&$K!"%9%Z!<%9$,4^$^$l$k%G%#%l%/%H%j$O;XDj$7$J$$$G$/$@$5$$!#$^$?!"(B
-    $BF|K\8l$NL>A0$N%G%#%l%/%H%j$b;XDj$7$J$$$G$/$@$5$$!#$=$N$h$&$J%G%#%l%/%H%j$K%$%s%9%H!<%k$r$9$k$H!"8=:_$G$O!"(BMeadow$B$,@5>o$KF0:n$7$^$;$s!#(B
-
+(3) $B%@%&%s%m!<%I$7$?(B bepw02.exe $B$r%(%/%9%W%m!<%i$J$I$G<B9T$7$^$9!#(B
+$B$9$k$H!"%;%C%H%"%C%W$N2hLL$,=P$k$N$G!";X<($K$7$?$,$C$F%$%s%9%H!<%k$7$F$/(B
+$B$@$5$$!#(B
 
 4. Meadow $B$N5/F0(B
 
@@ -190,6 +173,12 @@ A6: CTRL $B$r2!$7$J$,$i(Be$B$rBG$A!"<!$KC1FH$N(Bd$B$H?t;z0lJ8;z(B (1$B!A
     160" $B$N$h$&$K!"@_Dj$5$l$??tCM$r2;@<$G%"%J%&%s%9$7$^$9!#?t;z$O$*9%(B
     $B$_$KD4@a$7$F$/$@$5$$!#?t;z$,Bg$-$/$J$k$[$IB.$/$J$j!">.$5$/$J$k$[$I(B
     $BCY$/$J$j$^$9!#(B
+
+Q7: $B1Q8l$r%+%?%+%J1Q8l$GFI$^$;$?$$$N$G$9$,!)(B
+A7: CTRL $B$r2!$7$J$,$i(Be$B$rBG$A!"$=$l$+$iC1FH$N(B x m s $B$HBG$A$^$9!#$3$NA`:n(B
+    $B$G(B BEP $B$N%b!<%I$,@Z$jBX$o$j$^$9!#%+%?%+%J1Q8l%b!<%I$K$9$k$K$O!"$3$N(B
+    $BA`:n$r(B3$B2s9T$$$^$9!#(B
+
 
 
 6. $B;29M;qNA(B
