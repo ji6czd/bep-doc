@@ -1,11 +1,13 @@
 Bilingual Emacspeak Platform Windows版インストールの手引き
+
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2001/12/28 09:46:15 $
-$Revision: 1.17 $
+最終更新日:$Date: 2001/12/29 15:37:24 $
+$Revision: 1.18 $
 
 
-目次
+　目次
+
 0 はじめに
 1 このパッケージについて
 2 パッケージの内容
@@ -20,84 +22,94 @@ $Revision: 1.17 $
 
 
 0 初めに
-このドキュメントでは、Bilingual Emacspeak Platform (以下BEPと略す) Windows
+
+　このドキュメントでは、Bilingual Emacspeak Platform (以下BEPと略す) Windows
 版のインストールの方法を説明します。
-また、Emacs (Meadow) を使う上で参考に
+　また、Emacs (Meadow) を使う上で参考に
 なる資料を紹介します。
 
 
 1 このパッケージについて
 
-BEPは、視覚障害者がGNU Emacsというテキストエディタを、日英２ヶ国語の音声
+　BEPは、視覚障害者がGNU Emacsというテキストエディタを、日英２ヶ国語の音声
 出力を利用して使うためのソフトウェアです。
-
-このパッケージは、BEPの初期導入を容易にするために作成しました。
+　このパッケージは、BEPの初期導入を容易にするために作成しました。
 フリーソフトウェアとして配布できる、BEPのWindows版を動作させるためのファ
 イルが含まれています。
 
 
 2 パッケージの内容
 
-パッケージには以下のものが含まれています。
+　パッケージには以下のものが含まれています。
 
 (1) Meadow 1.15pre1一式
-Windows版のGNU EmacsであるMeadow本体です。
+    Windows版のGNU EmacsであるMeadow本体です。
+
 (2) Windows用スピーチサーバ(Speak.exe)
-BEPの音声を合成するためのプログラムです。
+    BEPの音声を合成するためのプログラムです。
+
 (3) BEPのプログラム本体
-BEPを動かすための、 Emacs Lisp プログラムです。
+    BEPを動かすための、 Emacs Lisp プログラムです。
 
 
 3 インストール
 
 3-1 動作環境
-以下の環境で動作確認を行いました。
+　以下の環境で動作確認を行いました。
 
-(1) OS: Windows98/Windows98SE/WindowsME/Windows2000SP2
-(2) 日本語用音声合成ライブラリ: IBM ProTalker 97
-(3) 英語用音声合成ライブラリ: Microsoft Text-to-Speech Engine
+(1) OS
+    Windows98/Windows98SE/WindowsME/Windows2000SP2
+(2) 日本語用音声合成ライブラリ
+    IBM ProTalker 97
+(3) 英語用音声合成ライブラリ
+    Microsoft Text-to-Speech Engine
 
 
 3-2 インストール方法
 
 (1)音声合成ライブラリをインストールします。
-BEPを動作させるには、日本語と英語のSAPI(Speech API)対応の音声合成ライブラリが必要です。
-このパッケージには、音声合成ライブラリは含まれていません。各自でインストー
+
+　BEPを動作させるには、日本語と英語のSAPI(Speech API)対応の音声合成ライブラリが必要です。
+　このパッケージには、音声合成ライブラリは含まれていません。各自でインストー
 ルする必要があります。
-(注意) SAPI には、Version 3 と、Version 4 があります。BEPは、Version 4 でし
+
+(注意)
+　SAPI には、いろいろなバージョンがあります。BEPは、SAPIのVersion 4 でし
 か動作しません。一部の環境で、スクリーンリーダーの反応が遅くなると言うよ
 うな理由で SAPI を Version 3 にしている場合は注意が必要です。
 
 (A)英語用音声合成ライブラリ
-英語用音声合成ライブラリには、MicrosoftのText-to-Speechエンジン(英語版)
+
+　英語用音声合成ライブラリには、MicrosoftのText-to-Speechエンジン(英語版)
 を、使用することができます。
 spchapi.exe(825KB)
-http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
+　　http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
 msttsL.exe (7.3MB)
-http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE
+　　http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE
 の二つをダウンロードし実行してください。
 
 (B)日本語音声合成ライブラリ
-日本語音声合成ライブラリの IBM ProTalker97は、IBMの商品です。(9800円)
-Protalker97は、パソコンショップで購入することができます。
+
+　日本語音声合成ライブラリの IBM ProTalker97は、IBMの商品です。(9800円)
+　Protalker97は、パソコンショップで購入することができます。
 もし、、IBMホームページリーダーや、PC-Talker/VDM100W、JAWSなどが
 インストールされていれば、必要なものが入っているので、インストールする必
 要は在りません。
 
 (2)BEPのパッケージを、以下からダウンロードします。(14.3MB)
-ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
+　　ftp://ftp.m17n.org/pub/bep/win32/release/bepw01.exe
 
 (3)ダウンロードしたbepw01.exeをエクスプローラなどで実行します。
-実行すると、「BEPの解凍を行います。よろしいですか？」とたずねるダイアログボッ
+　実行すると、「BEPの解凍を行います。よろしいですか？」とたずねるダイアログボッ
 クスが出るので、[OK]を押してください。
-すると、展開先をたずねるダイアログボックスが出るので、良ければ[OK]を押し
+　すると、展開先をたずねるダイアログボックスが出るので、良ければ[OK]を押し
 てください。
-ファイルを展開した後、Meadowをインストールして、インストール作業を終
+　ファイルを展開した後、Meadowをインストールして、インストール作業を終
 了します。デフォルトでは、c:\Meadowというディレクトリの下にBEPのファイルがイ
 ンストールされます。
 
 (注意)
-BEPのインストール先を指定する場合は、「C:\」とか、「D:\」などのように、ルート
+　BEPのインストール先を指定する場合は、「C:\」とか、「D:\」などのように、ルート
 ディレクトリの直下にするようにしてください。
 「C:\Program Files」 のように、サブディレクトリにインストールをすると、
 現在では、Meadowが正常に動作しません。
@@ -108,92 +120,105 @@ BEPのインストール先を指定する場合は、「C:\」とか、「D:\」などのように、ルート
 Meadowは、以下のようにして起動します。
 
 (1) スタートメニューを開きます。
- Windowsキーがあるコンピュータでは、Windowsキーを押します。無いコンピュー
+　Windowsキーがあるコンピュータでは、Windowsキーを押します。無いコンピュー
  タでは、 CTRL キーを押しながら、 ESC キーを押します。
+
 (2)上下矢印キーを使って、「プログラム」を選びます。
+
 (3)右矢印キーを押します。
+
 (4)上下矢印キーを使って、「Meadow」を選びます。
+
 (5)右矢印キーを押します。
+
 (6)この中にMeadowへのショートカットのアイコンがあるので、選んでエンターキー
- を押します。
+を押します。
+
 (7)これでMeadowが起動しました。しばらくすると、英語でのアナウンスメッセー
  ジが流れてきます。
 
 
 5 Q&A
 
-Q1: うまく行きません。
-A1: BEPに関しての議論は、BEPメーリングリストで行われています。まず、BEP
+　Q1: うまく行きません。
+　A1: BEPに関しての議論は、BEPメーリングリストで行われています。まず、BEP
 メーリングリストへの参加の手続きを行ってください。
 以下のアドレス
-bep-subscribe@argv.org
+　　bep-subscribe@argv.org
 へ空のメールを送ってください。確認のメールが送られてきますので、指示に従っ
 て返信してください。
-メーリングリストへの参加の手続きが完了しましたら、使っているOSの種類、何をどこから
+　メーリングリストへの参加の手続きが完了しましたら、使っているOSの種類、何をどこから
 ダウンロードしたか、それに対してどんな操作をしたかを書いて質問してみてく
 ださい。
 
-Q2: BEPの Web ページはありますか？
-A2: http://www.argv.org/bep/
+　Q2: BEPの Web ページはありますか？
+　A2: http://www.argv.org/bep/
 です。
 
-Q3: BEPが起動しました。終了のさせ方がわかりません。ALT+F4を押したのです
- が、終了できません。
-A3: BEP(Meadow)を終了させるには、CTRLを押しながらxを押してから、CTRLを押
- しながらcを押します。
+　Q3: BEPが起動しました。終了のさせ方がわかりません。
+ALT+F4を押したのですが、終了できません。
+　A3: BEP (Meadow) を終了させるには、CTRLを押しながらxを押してから、CTRLを押
+しながらcを押します。
 
-Q4: Meadowの使い方を覚えたいのですが。
-A4: Meadowを起動した後、CTRLを押しながらhを押してから、tを押します。すると、
+　Q4: Meadowの使い方を覚えたいのですが。
+　A4: Meadowを起動した後、CTRLを押しながらhを押してから、tを押します。すると、
 Meadowのチュートリアルが表示されます。
 
-Q5: しばらく使っているとBEPの音声が鳴らなくなるのですが。
-A5: 現在のBEPでは、何らかの原因で Speak.exe から音声が出ない状態になることが
+　Q5: しばらく使っているとBEPの音声が鳴らなくなるのですが。
+　A5: 現在のBEPでは、何らかの原因で Speak.exe から音声が出ない状態になることが
 あります。
 CTRLを押しながらeを押してから、CTRLを押しながらsを押して、Speak.exeを再起動
 させてください。
 
-Q6: 音声のスピードを変えたいのですが。
-A6: CTRLを押しながらeを押してから、ｄを押して1から9までの数字を入れます。すると、速さが設定され、
-(Set speech rate to 160)
+　Q6: 音声のスピードを変えたいのですが。
+　A6: CTRLを押しながらeを押してから、ｄを押して1から9までの数字を入れます。すると、速さが設定され、
+　　(Set speech rate to 160)
 のように、設定された数値を音声でアナウンスします。
-注意: 数字はお好みに調節してください。数字が大きくなるほど速くなり、小さ
+
+(注意)
+　数字はお好みに調節してください。数字が大きくなるほど速くなり、小さ
 くなるほど遅くなります。
 
 
 6 参考資料
 
-Meadowや、Emacsの使い方を学ぶのに役に立ちそうな Web を紹介します。
+　Meadowや、Emacsの使い方を学ぶのに役に立ちそうな Web を紹介します。
 
 (1) Meadow FAQ
-http://faq.meadowy.org/
-Meadowについての質問と回答集です。Meadowについてわからないことがあったら、まずここを見
+　　http://faq.meadowy.org/
+
+　Meadowについての質問と回答集です。Meadowについてわからないことがあったら、まずここを見
 ましょう。
 
 (2) Emacsの遊び方
-http://www.argv.org/bep/common/play_with.html
-MeadowとBEPを使っての遊び方のページです。
+　　http://www.argv.org/bep/common/play_with.html
+
+　MeadowとBEPを使っての遊び方のページです。
 
 (3) Edit With Emacs
-http://webclub.kcom.ne.jp/mb/colo/em_id.html
-Emacsの基本的な編集の方法が解説されています。
+　　http://webclub.kcom.ne.jp/mb/colo/em_id.html
+
+　Emacsの基本的な編集の方法が解説されています。
 
 (4) Emacspeakのページ(英語)
-http://emacspeak.sourceforge.net/
-BEPの元になった Emacspeak のページです。英語ですが、ユーザーズガイドなど
+　　http://emacspeak.sourceforge.net/
+
+　BEPの元になった Emacspeak のページです。英語ですが、ユーザーズガイドなど
 のマニュアルが読めます。英語が得意な人は、読んでみると参考になるかもしれ
 ません。
 
 
 7 その他
 
-この簡単インストールパッケージに含まれるMeadowの本体とソースコードは、以下の場所から入
+　この簡単インストールパッケージに含まれるMeadowの本体とソースコードは、以下の場所から入
 手することができます。
-ftp://ftp.m17n.org/pub/mule/Windows/
+　　ftp://ftp.m17n.org/pub/mule/Windows/
 
 
 8 連絡先
-BEPのプログラムに関する質問、バグレポートは、BEPメーリングリストへお願いします。メーリ
+
+　BEPのプログラムに関する質問、バグレポートは、BEPメーリングリストへお願いします。メーリ
 ングリストへの参加の方法は、Q1を参照してください。
-その他、ご不明な点がありましたら、
-bep-contact@argv.org
+　その他、ご不明な点がありましたら、
+　　bep-contact@argv.org
 まで、メールでお問い合わせください。
