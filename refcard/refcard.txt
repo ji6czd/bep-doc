@@ -1,0 +1,345 @@
+BEPユーザのためのEmacsリファレンス
+$Id: refcard.txt,v 1.1 2001/10/01 05:31:39 mitsugu Exp $
+訳・編 ntakahas@m17n.org
+
+
+・Emacs の起動
+端末から emacs と打つ。
+編集すべきファイルを読み込む方法はすぐ下で。
+
+・Emacs の終了
+完全に終了: C-x C-c
+一時停止/アイコン化: C-z
+
+・ファイル
+ファイルを開く: C-x C-f
+ファイルを保存: C-x C-s
+全ファイルを保存: C-x s
+別ファイルの内容を挿入: C-x i
+現ファイルを放棄して別ファイルを開く: C-x C-v
+名前を付けて保存: C-x C-w
+編集許可/禁止: C-q
+
+・ヘルプ
+概論: C-h または F1 を打ち、指示に従う
+チュートリアル起動: C-h t
+ヘルプウィンドウを消す: C-x 1
+ヘルプウィンドウをスクロール: C-M-v
+コマンド名の一部から正式名を知る: C-h a
+キーに割り当てられたコマンドを知る: C-h k
+コマンドの説明: C-h f
+モードごとの説明: C-h m
+
+・エラーからの回復
+やりかけた作業の中止: C-g
+前回異常終了したファイルを回復: M-x recover-file
+変更を取り消す: C-x u または C-_
+バッファを最初の状態に: M-x revert-buffer
+画面の書き直し: C-l
+
+・インクリメンタル・サーチ
+後ろに向かって検索: C-s
+前に向かって検索: C-r
+正規表現で検索: C-M-s
+正規表現で後ろ向きに検索: C-M-r
+一つ前の検索文字列: M-p
+一つ次の検索文字列: M-n
+インクリメンタル・サーチの終了: RET
+最後の文字を取り消す: DEL
+現在の検索を放棄: C-g
+もう一度 C-s あるいは C-r を押すと次にマッチするところへ飛ぶ
+
+・移動
+次の文字: C-f
+前の文字: C-b
+次の単語: M-f
+前の単語: M-b
+次の行: C-n
+前の行: C-p
+行頭: C-a
+行末: C-e C-e
+文頭: M-a
+文末: M-e
+次の段落: M-{
+前の段落: M-}
+次のページ: M-[
+前のページ: M-]
+次のS式: C-M-f
+前のS式: C-M-b
+次の関数: C-M-a
+前の関数: C-M-e
+バッファの先頭: M-<
+バッファの最後: M->
+スクロール: C-v
+逆スクロール: M-v
+左スクロール: C-x <
+右スクロール: C-x >
+現在の行を画面中央に: C-l
+
+・削除
+カーソルのある文字: C-d
+前の一文字: DEL
+次の一語: M-d
+前の一語: M-DEL
+行末まで: C-k
+行頭まで: M-0 C-k
+次の一文: M-k
+前の一文: C-x DEL
+次のS式: C-M-k
+前のS式: M-- C-M-k
+指定した領域: C-w
+指定した文字まで: M-z
+
+・コピー、貼り付け
+指定した領域をコピー: M-w
+貼り付け: C-y
+もう一つ前の貼り付け内容で置き替え: M-y
+
+・マーク
+カーソル位置にマークを打つ: C-@ または C-SPC
+カーソル位置とマークの入れ替え: C-x C-x
+x語先にマークを打つ: M-@
+現在の段落: M-h
+現在のページ: C-x C-p
+現在のS式: C-M-@
+現在の関数: C-M-h
+バッファ全体: C-x h
+
+・置き換え
+確認しつつ置き換える: M-%
+正規表現使用: M-x query-replace-regexp
+置き換え確認時のキー...
+  置き換えて次へ: SPC
+  置き換えてそこに留まる: ,
+  置き換えずに次へ: DEL
+  残り全部を確認せずに置き換え: !
+  前回置き換えた所へ戻る: ^
+  残りは置き換えない: RET
+  再帰編集 (終了は C-M-c): C-r
+
+・ウィンドウ分割
+他のウィンドウを隠す: C-x 1
+上下2分割: C-x 2
+別フレームを作る: C-x 5 2
+現在のウィンドウを隠す: C-x 0
+現在のフレームを隠す: C-x 5 0
+別ウィンドウでバッファを編集: C-x 4 b
+別フレームでバッファを編集: C-x 5 b
+別ウィンドウにバッファを表示: C-x 4 C-o
+別フレームにバッファを表示: C-x 5 C-o
+別ウィンドウでファイルを開く: C-x 4 f
+別フレームでファイルを開く: C-x 5 f
+別ウィンドウでファイルを見る(書き込み禁止): C-x 4 r
+別フレームでファイルを見る(書き込み禁止): C-x 5 r
+別ウィンドウで dired 実行: C-x 4 d
+別フレームで dired 実行: C-x 5 d
+別ウィンドウでタグサーチ: C-x 4 .
+別フレームでタグサーチ: C-x 5 .
+現在のウィンドーを上下に伸ばす: C-x ^
+現在のウィンドーを左右に伸ばす: C-x }
+現在のウィンドーを左右に縮める: C-x {
+
+・文書整形
+現在の行をインデント(モード依存): TAB
+指定領域をインデント(モード依存): C-M-\
+S式をインデント(モード依存): C-M-q
+指定領域を正確にx文字分インデント: C-x TAB
+行分割(カーソルは動かず): C-o
+行の残りを垂直に下げる: C-M-o
+カーソル前後の空行を削除: C-x C-o
+現在の行と前の行を一行に: M-^
+カーソル前後の空白を削除: M-\
+カーソル前後の空白を1個だけに: M-SPC
+現在の段落を整形: M-q
+自動改行位置の設定: C-x f
+行頭挿入語の設定: C-x .
+フェースの設定: M-g
+
+・大文字、小文字
+現在の語を全部大文字に: M-u
+現在の語の全部小文字に: M-l
+現在の語を先頭だけ大文字に: M-c
+指定領域を全部大文字に: C-x C-u
+指定領域を全部小文字に: C-x C-l
+
+・ミニバッファ
+可能な限り補完: TAB
+一語補完: SPC
+補完して実行: RET
+補完候補一覧を出す: ?
+一回前の入力を呼び出す: M-p
+一回後の入力を呼び出す: M-n
+履歴を逆登ってインクリメンタル・サーチ: M-r
+履歴を時間軸に従ってインクリメンタル・サーチ: M-s
+作業中止: C-g
+前回と同じ作業を実行: C-x ESC ESC
+メニューバー内の項目をミニバッファを使って実行: F10
+
+・バッファ
+別のバッファを呼び出す: C-x b
+全バッファのリストを見る: C-x C-b
+現在のバッファをEmacs内から削除する: C-x k
+
+・入れ替え
+文字単位: C-t
+単語単位: M-t
+行単位: C-x C-t
+S式単位: C-M-t
+
+・スペルチェック
+現在の単語: M-$
+指定領域全体: M-x ispell-region
+バッファ全体: M-x ispell-buffer
+
+・タグ
+タグサーチ: M-.
+次のタグをサーチ: C-u M-.
+新しいタグファイルを指定: M-x visit-tags-table
+タグテーブル内の全ファイルに対する正規表現検索: M-x tags-search
+タグテーブル内の全ファイルに対する確認付き置き換え: M-x tags-query-replace
+前回の tags-search または tags-query-replace の再実行: M-,
+
+・シェル
+シェルコマンドの実行: M-!
+指定領域に対してシェルコマンドを実行: M-|
+上の結果で元の領域を置き換える: C-u M-|
+シェルの起動: M-x shell
+
+・矩形
+指定した矩形領域を記憶: C-x r r
+記憶した矩形領域の貼り付け: C-x r g
+指定した矩形領域の削除: C-x r k
+最後に削除した矩形領域の貼り付け: C-x r y
+空白の矩形領域を挿入: C-x r o
+指定した矩形領域を空白で置き換え: C-r c
+指定した矩形領域を文字列で置き換え: C-r c
+
+・短縮
+短縮記法を登録: C-x a g
+モード限定の短縮記法を登録: C-x a l	
+非短縮記法を登録: C-x a i g
+モード限定の非短縮を登録: C-x a i l
+非単縮化: C-x a e
+登録とは無関係に補完: M-\
+
+・正規表現
+改行以外の任意の1文字: .
+0回以上の繰り返し: *
+1回以上の繰り返し: +
+0回または1回の繰り返し: ?
+特別な文字xを特別でなくす: \x
+または: \|
+グループ化: \( ... \)
+x番目のグループ: \x
+単語の切れ目: \b
+単語の切れ目以外: \B
+行頭: ^
+行末: $
+単語の先頭: \<
+単語の最後: \>
+バッファの先頭: \`
+バッファの最後: \'
+このうちのどれか: [ ... ]
+これ以外のもの: [^ ... ]
+単語を構成する1文字: \w
+単語を構成しない1文字: \W
+シンタックスがCである1文字: \sC
+シンタックスがCでない1文字: \SC
+
+・多言語
+主言語設定: M-x set-language-environment
+全入力メソッドをリスト: M-x list-input-methods
+入力メソッドのオン/オフ: C-\
+コーディングシステムの一時設定 (直後の1コマンドのみ有効): C-x RET c
+全コーディングシステムをリスト: M-x list-coding-systems
+優先するコーディングシステムを設定: M-x prefer-coding-system
+
+・Info
+Infoの起動: C-h i
+関数あるいは変数の定義をInfoで読む: C-h C-i
+ノード内の移動...
+  スクロール: SPC
+  逆スクロール: DEL
+  ノードの先頭: .
+ノード間の移動...
+  次ノード: n
+  前ノード: p
+  親ノード: u
+  メニューの項目を名前で指定: m
+  メニューのx番目(1〜9)へ: x
+  リンク先参照: f
+  リンク元に戻る: l
+  ディレクトリノードに戻る: d
+  名前指定で任意のノードへ: g
+その他...
+  Infoのチュートリアルを起動: h
+  Infoの終了: q
+  正規表現でノードを検索: M-s
+
+・レジスタ
+指定領域をレジスタにコピー: C-x r s
+レジスタの内容を貼り付け: C-x r i
+現在の位置をレジスタに格納: C-x r SPC
+レジスタに格納された位置へ移動: C-x r j
+
+・キーボードマクロ
+定義開始: C-x (
+定義終了: C-x )
+最後に定義したマクロを実行: C-x e
+最後に定義したマクロに追加: C-u C-x (
+最後に定義したマクロに名前を付ける: M-x name-last-kbd-macro
+マクロのLisp定義をバッファに挿入: M-x insert-kbd-macro
+
+・Emacs Lisp関係
+カーソルの前のS式を評価: C-x C-e
+現在の関数定義を評価: C-M-x
+指定領域を評価: M-x eval-region
+ミニバッファからS式を読んで評価: M-:
+システムのディレクトリから定義を読み込む: M-x load-library
+
+・カスタマイズ
+変数およびフェースのカスタマイズ: M-x customize
+キー定義の例...
+  (global-set-key "\C-cg" 'goto-line)
+  (global-set-key "\M-#" 'query-replace-regexp)
+
+・コマンドの書き方
+(defun コマンド名 (引数)
+  "説明"
+  (interactive "テンプレート")
+  本体)
+
+例...
+  (defun this-line-to-top-of-window (line)
+    "Reposition line point is on to top of window.
+  With ARG, put point on line ARG."
+    (interactive "P")
+    (recenter (if (null line)
+                  0
+                (prefix-numeric-value line))))
+
+  "テンプレート" はユーザから起動されたときの引数の読み方を指定する。
+  詳細は C-h f interactive と打てば表示される。
+
+・以下原文の著作権表示
+
+Reference Card for GNU Emacs version 20 on Unix systems
+
+Copyright (c) 1987, 1993, 1996, 1997 Free Software Foundation, Inc.
+
+This file is part of GNU Emacs.
+
+GNU Emacs is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2, or (at your option)
+any later version.
+
+GNU Emacs is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with GNU Emacs; see the file COPYING.  If not, write to
+the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+Boston, MA 02111-1307, USA.
