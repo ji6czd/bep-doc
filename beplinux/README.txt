@@ -1,8 +1,8 @@
 Bilingual Emacspeak Platform - Release 20020214(Based on Emacspeak 16.0)
 Copyright (C) 1999-2002 Bilingual Emacspeak Project
 Documented by: Koichi INOUE <inoue@argv.org>
-最終更新日:$Date: 2002/05/09 16:09:12 $
-$Revision: 1.6 $
+最終更新日:$Date: 2002/05/10 12:13:05 $
+$Revision: 1.7 $
 
 
 目次
@@ -56,8 +56,8 @@ Linux上では日本語変換にEgg V4を利用していただくことで、日本語変換時の詳
 2.1 必要なもの
 
 ・GNU Emacs
-利用にはEmacs-20.7以降、及びそれをベースとしたMeadow(1.15推奨)が必要で
-す。BEPのインストールの前にそれらをインストールしてください。
+利用にはEmacs-20.7以降、あるいはそれをベースとしたMeadow(1.15推奨)が必要
+です。BEPのインストールの前にそれらをインストールしてください。
 
 ・スピーチサーバ
 本パッケージの利用には、お使いのオペレーティングシステム専用のスピーチサー
@@ -69,7 +69,7 @@ Windows版: http://www.argv.org/bep/Windows/
 Linux版:   http://www.argv.org/bep/Linux/
 
 ・Emacspeakパッケージ
-本パッケージにはEmacspeak-16.0に追加する多原語拡張機能と日本語対応モジュー
+本パッケージにはEmacspeak-16.0に追加する多言語拡張機能と日本語対応モジュー
 ルのみが含まれます。
 http://emacspeak.sourceforge.net
 からemacspeak 16.0の配布パッケージを入手してください。
