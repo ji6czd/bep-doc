@@ -1,8 +1,8 @@
 Bilingual Emacspeak Platform - Release 20020214(Based on Emacspeak 16.0)
 Copyright (C) 1999-2002 Bilingual Emacspeak Project
 Documented by: Koichi INOUE <inoue@argv.org>
-最終更新日:$Date: 2002/05/09 15:19:09 $
-$Revision: 1.4 $
+最終更新日:$Date: 2002/05/09 16:08:44 $
+$Revision: 1.5 $
 
 
 目次
@@ -48,6 +48,7 @@ Linux上では日本語変換にEgg V4を利用していただくことで、日本語変換時の詳
   ・ブラウザ: Emacs-w3m
   ・文書作成支援環境: YaHTML
   ・日本語入力用クライアント: egg V4
+  ・IRCクライアント: liece
 
 
 2. インストール/利用方法
