@@ -11,7 +11,7 @@
 <body>
 
 <h1>BEP Frequently Asked Questions and Answers list</h1>
-<p>$Id: bepfaq.html,v 1.29 2002/03/29 07:13:56 mitsugu Exp $</p>
+<p>$Id: bepfaq.html,v 1.30 2002/03/29 07:46:15 mitsugu Exp $</p>
 
 <hr>
 <h2><a name="content">目次</a></h2>
@@ -130,7 +130,7 @@
  <dt>その他の質問
  <dd><ul>
       <li><a href="#faq10.1">10.1 Mule,Emacs,Meadowの歴史について教えてください。</a>
-      <li><a href="#faq10.２">10.2 弱視でMeadow を使っています。文字を大
+      <li><a href="#faq10.2">10.2 弱視でMeadow を使っています。文字を大
 	   きくしたり、色を変えたりしたいのですが。</a>
      </ul>
 </dl>
@@ -737,22 +737,17 @@ M-x doctorすると、英語でdoctorが質問してきます。
 
 <p>以下に例を示します。この例の色などをお好みに変えてみてください。</p>
 
-<pre>
+<code>
 ;;; フレームの設定
 (setq default-frame-alist
-      (append (list
-               ;; サイズ・位置
-               '(width . 90)  ; 横幅（文字数）
-               '(height . 32) ; 高さ（行数）
-               '(top . 10)    ; フレーム左上角 y 座標
-               '(left . 10)   ; フレーム左上角 x 座標
-               ;; 色
-               '(background-color . "Black")          ; 背景色
-               '(foreground-color . "AntiqueWhite")   ; 文字色
-               )
-              default-frame-alist)
-</pre>
-
+      (append '((width . 90)  ; 横幅（文字数）
+                (height . 32) ; 高さ（行数）
+		(top . 10)    ; フレーム左上角 y 座標
+		(left . 10)   ; フレーム左上角 x 座標
+		(background-color . "Black")          ; 背景色
+		(foreground-color . "AntiqueWhite"))  ; 文字色
+	      default-frame-alist))
+</code>
 <p><a href="#content">(目次に戻る)</a></p>
 
 </body>
