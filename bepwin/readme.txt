@@ -1,9 +1,8 @@
 Bilingual Emacspeak Platform Windows版インストールの手引き
-
-Copyright (C) 1999-2001 Bilingual Emacspeak Project
-Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2002/06/06 16:42:59 $
-$Revision: 1.30 $
+Copyright (C) 1999-2002 Bilingual Emacspeak Project
+Documented by: Mitsugu SAKAMOTO <mitsugu@argv.org>
+最終更新日:$Date: 2002/06/23 16:30:30 $
+$Revision: 1.31 $
 
 
 目次
@@ -107,9 +106,9 @@ BEPは、視覚障害者が GNU Emacs というテキストエディタを、日英２ヶ国語の
 
 (2) BEPのパッケージを、以下からダウンロードします。(14.3MB)
 
-　　ftp://ftp.m17n.org/pub/bep/win32/release/bepw02.exe
+　　ftp://ftp.m17n.org/pub/bep/win32/release/bepw03.exe
 
-(3) ダウンロードした bepw02.exe をエクスプローラなどで実行します。
+(3) ダウンロードした bepw03.exe をエクスプローラなどで実行します。
 すると、セットアップの画面が出るので、指示にしたがってインストールしてく
 ださい。
 
