@@ -2,8 +2,8 @@ Bilingual Emacspeak Platform Windows版インストールの手引き
 
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2002/01/08 03:33:50 $
-$Revision: 1.23 $
+最終更新日:$Date: 2002/01/09 05:47:31 $
+$Revision: 1.24 $
 
 
 目次
@@ -59,6 +59,7 @@ BEPは、視覚障害者が GNU Emacs というテキストエディタを、日英２ヶ国語の
 $B以下の環境で動作確認を行いました。
 
 ・OS: Windows98/Windows98SE/WindowsME/Windows2000SP2
+・Microsoft Speech API 4
 ・日本語用音声合成ライブラリ: IBM ProTalker 97
 ・英語用音声合成ライブラリ: Microsoft Text-to-Speech Engine
 
@@ -125,7 +126,7 @@ BEPは、視覚障害者が GNU Emacs というテキストエディタを、日英２ヶ国語の
 
     [$B注意] BEP のインストール先を指定する場合は、「C:\Program Files」 の
     ように、スペースが含まれるディレクトリは指定しないでください。また、
-    日本語の名前のディレクトリも指定しないでください。それらのようなディレクトリにインストールをすると、現在では、Meadowが正常に動作しません。
+    日本語の名前のディレクトリも指定しないでください。そのようなディレクトリにインストールをすると、現在では、Meadowが正常に動作しません。
 
 
 4. Meadow の起動
