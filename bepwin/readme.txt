@@ -2,8 +2,8 @@ Bilingual Emacspeak Platform Windows版インストールの手引き
 
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2002/01/05 23:15:27 $
-$Revision: 1.21 $
+最終更新日:$Date: 2002/01/06 14:16:10 $
+$Revision: 1.22 $
 
 
 目次
@@ -82,7 +82,8 @@ BEPは、視覚障害者が GNU Emacs というテキストエディタを、日英２ヶ国語の
 
      $B　英語用音声合成ライブラリには、Microsoft の英語版 Text-to-Speech 
        エンジンを使用します。以下の二つをダウンロードして実行して下さ
-       い。
+       い。実行するとインストールのダイアログボックスが出るので、指示に
+       したがってインストールしてください。
 
        spchapi.exe (825KB)
 　　   http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
