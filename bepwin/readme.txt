@@ -2,8 +2,8 @@ Bilingual Emacspeak Platform Windows版インストールの手引き
 
 Copyright (C) 1999-2001 Bilingual Emacspeak Project
 Author: Mitsugu SAKAMOTO <mitsugu@argv.org>
-最終更新日:$Date: 2002/06/02 09:37:27 $
-$Revision: 1.28 $
+最終更新日:$Date: 2002/06/02 09:38:16 $
+$Revision: 1.29 $
 
 
 目次
@@ -188,7 +188,7 @@ A8: 以下のように操作してみてください。
 
     (3) エンたーを押します。
 
-    これで東芝用スピーチサーバを使うことができます。また、再び上の (1)～(3)
+    これで東芝用のスピーチサーバを使うことができます。また、再び上の (1)～(3)
     の操作をすると、元に戻すことができます。
 
 6. 参考資料
