@@ -1,11 +1,11 @@
 BEPƒCƒ“ƒXƒg[ƒ‰‚ÌŽd—l(ˆÄ)
 
-2002”N1ŒŽ7“ú
+2002”N1ŒŽ8“ú
 “n•Ó—²s <takayuki@la.shonan-it.ac.jp>
-$Id: InstallerSpec.txt,v 1.1 2002/01/07 15:49:38 watanabe Exp $
+$Id: InstallerSpec.txt,v 1.2 2002/01/08 15:48:22 watanabe Exp $
 
 BEP (Bilingual Emacspeak Platform)‚ÍAŽ‹ŠoáŠQŽÒ—p‚Ì“ú‰p2ƒ–‘ŒêEmacs‰¹º‰»
-ƒVƒXƒeƒ€‚Å‚·BBEP‚ÌƒCƒ“ƒXƒg[ƒ‰‚É•K—v‚È‹@”\‚ðˆÈ‰º‚Éq‚×‚Ü‚·B
+ƒVƒXƒeƒ€‚Å‚·BEmacs‚Ì‚±‚Æ‚ð‚æ‚­’m‚ç‚È‚¢‰SŽÒ‚ÉBEP‚ðŽg‚Á‚Ä‚à‚ç‚¤‚½‚ß‚ÌƒCƒ“ƒXƒg[ƒ‰‚ðì‚Á‚Ä‚­‚¾‚³‚¢BƒCƒ“ƒXƒg[ƒ‰‚É•K—v‚È‹@”\‚ðˆÈ‰º‚Éq‚×‚Ü‚·B
 ‚È‚¨A‰äX‚ªì‚Á‚½’á‹@”\‚ÈŠÈ’PƒCƒ“ƒXƒg[ƒ‰‚ðˆÈ‰º‚ÌftpƒTƒCƒg‚ÅŒöŠJ‚µ‚Ä‚¢‚Ü‚·B
 ftp://ftp.m17n.org/pub/bep/win32/beta/bepw01-pre7.exe
 ˆê“x‚±‚ê‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚¢‚½‚¾‚­‚ÆA‚Ç‚¤‚¢‚¤‚à‚Ì‚ðì‚é‚×‚«‚©‚Ì—‰ð‚Ì•‚¯‚É
@@ -31,81 +31,176 @@ ftp://ftp.m17n.org/pub/bep/win32/beta/bepw01-pre7.exe
 
 3) ƒlƒbƒgƒ[ƒN‰z‚µ‚Éƒ_ƒEƒ“ƒ[ƒh‚·‚é‚±‚Æ‚ð‰¼’è‚·‚éB
   ‘S•”‚Å20MB‹ß‚­‚É‚È‚é‚Ì‚ÅAƒAƒiƒƒO“d˜b‚Å‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í‚©‚È‚è‚«‚Â‚¢ì‹Æ‚É
-  ‚È‚éB•ªŠ„ƒCƒ“ƒXƒg[ƒ‹‚ào—ˆ‚é‚±‚Æ‚ª–]‚Ü‚µ‚¢B
+  ‚È‚éB•ªŠ„ƒCƒ“ƒXƒg[ƒ‹‚ào—ˆ‚é‚±‚Æ‚ª–]‚Ü‚µ‚¢B‚Â‚Ü‚èÅ‰‚Ì¬‚³‚ÈƒCƒ“ƒXƒg[ƒ‰
+  ‚ªA•ªŠ„‚³‚ê‚½Žc‚è‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä‡‘Ì‚·‚éB
   
-4) Emacs‚âBEP‚âUnix‚ÌŠî‘b’mŽ¯‚ª‚È‚¢ƒ†[ƒU‚Å‚àƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚éB
-  ‚Â‚Ü‚èƒ†[ƒU‚É‚ÍŠÈ’P‚ÈŽ¿–â‚µ‚©‚µ‚È‚¢‚µA‚»‚Ìê‡‚àƒfƒtƒHƒ‹ƒg‚ÌÝ’è‚ð—pˆÓ
-  ‚µ‚Ä‚¨‚­B
+–â‘è“_:
+  setup.exe‚¾‚¯‚ðƒ[ƒJƒ‹‚É’u‚¢‚ÄA•K—v‚Èƒ‚ƒWƒ…[ƒ‹‚ÍƒCƒ“ƒXƒg[ƒ‰‚ªƒlƒbƒgƒ[ƒN
+  ‰z‚µ‚ÉŽæ‚Á‚Ä‚«‚Äƒ[ƒJƒ‹‚É•Û‘¶‚µ‚½Œã‚ÅƒCƒ“ƒXƒg[ƒ‹‚·‚éAˆ½‚¢‚Íƒ[ƒJƒ‹‚ÉŠù‚É
+  ‚ ‚ê‚Î‚»‚ê‚ðŽg‚¤‚Æ‚¢‚¤‚â‚è•û‚àl‚¦‚ç‚ê‚é‚ªA¡‰ñ‚Í‚·‚×‚Äž‚Ý‚ÌƒCƒ“ƒXƒg[ƒ‰‚É
+  ‚·‚é‚±‚Æ‚Å‚æ‚¢‚©H Meadow‚ÆBEP‚ð•Ê‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚éê‡‚Í•ª‚©‚ê‚Ä‚¢‚½‚Ù‚¤‚ª
+  “s‡‚æ‚¢‚¯‚ÇB
+  
+4) ‚±‚ÌƒCƒ“ƒXƒg[ƒ‰‚Í‰SŽÒA‚Â‚Ü‚èEmacs‚âBEP‚âUnix‚ÌŠî‘b’mŽ¯‚ª‚È‚¢ƒ†[ƒU‚ð
+  ‘ÎÛ‚É‚·‚éB
+  ƒ†[ƒU‚É‚ÍŠÈ’P‚ÈŽ¿–â‚µ‚©‚µ‚È‚¢‚µA‚»‚Ìê‡‚àƒfƒtƒHƒ‹ƒg‚ÌÝ’è‚ð—pˆÓ‚µ‚Ä‚¨‚­B
 
 5) Šù‘¶‚ÌƒXƒNƒŠ[ƒ“ƒŠ[ƒ_ŠÂ‹«‚Éˆ«‰e‹¿‚ð—^‚¦‚È‚¢B
- ‚±‚ê‚ª–â‘è‚É‚È‚é‚Ì‚ÍSAPI‚ÌƒCƒ“ƒXƒg[ƒ‹‚Æ‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ÌƒCƒ“ƒXƒg[ƒ‹F
-–â‘è“_FSAPI‚ÌƒCƒ“ƒXƒg[ƒ‹‚É‚àÓ”C‚ðŽ‚Â‚©B‚»‚ê‚Æ‚àƒ†[ƒU‚É•ÊŒÂ‚É‚³‚¹‚é‚©B
-–â‘è“_FProTalker‚ÉŠÖ‚µ‚Ä‚Íreadme‚É’ˆÓ‚ð‘‚­‚¾‚¯‚Å‚æ‚¢‚©?
+ ‚±‚ê‚ª–â‘è‚É‚È‚é‚Ì‚ÍSAPI‚ÌƒCƒ“ƒXƒg[ƒ‹‚Æ‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚ÌƒCƒ“ƒXƒg[ƒ‹B
+ ƒ†[ƒU‚É’ˆÓ‚ðŠ«‹N‚·‚éƒƒbƒZ[ƒW‚ðo‚·B
  
-6) ”[•i‚³‚ê‚½ƒCƒ“ƒXƒg[ƒ‰‚ðŒã‚Å‰äX‚ª•ÏX‚µ‚ÄA×•”‚ðC³‚µ‚½Vƒo[ƒWƒ‡ƒ“‚Ì
-  ƒCƒ“ƒXƒg[ƒ‰‚ðŠÈ’P‚Éì‚ê‚é‚æ‚¤‚É‚È‚Á‚Ä‚¢‚é‚±‚ÆB
+6) ”[•i‚³‚ê‚½ƒCƒ“ƒXƒg[ƒ‰‚ðŒã‚Å‰äX‚ª•ÏX‚µ‚ÄA×•”‚ðC³‚µ‚½‚è‹@”\‚ðŠg’£‚µ‚½‚è
+  ‚µ‚½Vƒo[ƒWƒ‡ƒ“‚ÌƒCƒ“ƒXƒg[ƒ‰‚ðŠÈ’P‚Éì‚ê‚é‚æ‚¤‚É‚È‚Á‚Ä‚¢‚é‚±‚ÆB
+  ‚Â‚Ü‚èA¡‰ñ‚ÌƒCƒ“ƒXƒg[ƒ‰ì¬ƒXƒNƒŠƒvƒg‚à‚±‚¿‚ç‚É–³ž‚Å’ñ‹Ÿ‚·‚é‚±‚ÆB
+  ‚Ü‚½‚»‚ÌƒXƒNƒŠƒvƒg‚ð‰äX‚ªŽ©—R‚É‰ü•Ï‚Å‚«‚é‚±‚ÆB“Ç‚Ý‚â‚·‚­‰ü•Ï‚µ‚â‚·‚¢‚æ‚¤‚É
+  ì‚Á‚Ä‚ ‚é‚±‚ÆB
   
 7) ƒCƒ“ƒXƒg[ƒ‰‚ÍˆÈ‰º‚Ìƒ‚ƒWƒ…[ƒ‹‚ðŠÇ—‚·‚éB
-  EMeadow–{‘Ì‚Ìƒtƒ@ƒCƒ‹ŒQ
-  EBEP‚ÌEmacs LispƒpƒbƒP[ƒW
-  EWindows SS (Speak.exe)
-  EƒhƒLƒ…ƒƒ“ƒg‚â‰Šú‰»ƒtƒ@ƒCƒ‹
-  iMew‚È‚Ç‚ÌƒpƒbƒP[ƒW‚Í“ü‚ê‚È‚¢Bj
-–â‘è“_F«—ˆ‚ÍMew‚È‚Ç‚ÌƒpƒbƒP[ƒW‚àŠÇ—‚Å‚«‚é‚æ‚¤‚É‚µ‚½‚¢B(—\’è)
+  EMeadow–{‘Ì‚Ìƒtƒ@ƒCƒ‹ŒQ (Meadow-1.15-i386-els.tar.gz)
+–â‘è“_F–¼‘O‚ª8•¶Žš‚ð’´‚¦‚Ä‚¢‚é‚¯‚ÇA‚±‚ê‚Å‚æ‚¢‚©H
+  EBEP‚ÌEmacs LispƒpƒbƒP[ƒW (beplsp01.exe)
+  EWindows SSFSpeak.exe‚Ì‚±‚ÆB(winss01.exe)
+  EƒhƒLƒ…ƒƒ“ƒg‚â‰Šú‰»ƒtƒ@ƒCƒ‹‚È‚Çã‹L‚É“ü‚ç‚È‚¢‚à‚Ì (bepetc01.exe)
+  E‚»‚Ì‘¼
+   # ¡‰ñ‚ÍMew‚È‚Ç‚ÌLispƒpƒbƒP[ƒW‚ÍŠÇ—‚µ‚È‚¢B«—ˆ‚Ìh‘è‚É‚·‚éB
 
 8) ƒCƒ“ƒXƒg[ƒ‹‚ÌŽè‡F
- (1) readme.txt‚ð•\Ž¦‚·‚éB‚±‚Ìƒtƒ@ƒCƒ‹‚Í‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
- (2) ƒCƒ“ƒXƒg[ƒ‹‚©ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚©‚ð‘I‘ð‚³‚¹‚éB‚Ü‚½ŠeŽè‡‚ÅŒ³‚É–ß‚é‚±‚Æ‚à
-    o—ˆ‚é‚æ‚¤‚É‚·‚éB
- (3) SAPI 4‚ª“ü‚Á‚Ä‚¢‚é‚©‚Ç‚¤‚©Šm”F‚·‚éB“ü‚Á‚Ä‚¢‚È‚¢ê‡‚ÍƒƒbƒZ[ƒW‚ðo‚·B
-    ‚Ü‚½ASAPI 4‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚æ‚¢‚©‚Ç‚¤‚©–â‚¢‡‚í‚¹‚ÄAOK‚È‚ç‚Îƒlƒbƒg
-    ƒ[ƒN‰z‚µ‚Éƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚·‚éB
-    ’ˆÓFSAPI 3‚ðŽg‚Á‚Ä‚¢‚éƒ†[ƒU‚ª‚¢‚é‚ªABEP‚ÍSAPI 4‚Å‚µ‚©“®‚©‚È‚¢B
-–â‘è“_F SAPI 3‚ðŽg‚Á‚Ä‚¢‚éê‡‚Ì‘Îˆ‚Í‚Ç‚¤‚·‚×‚«‚©?
- (4) ‰¹º‡¬ƒGƒ“ƒWƒ“‚ÌŽí—Þ‚ðŠm”F‚·‚éB³‚µ‚¢‚à‚Ì‚ª“ü‚Á‚Ä‚¢‚È‚¢ê‡‚ÍƒƒbƒZ[ƒW
-    ‚ðo‚·B
-    ‚Ü‚½A‰pŒêƒGƒ“ƒWƒ“‚ÉŠÖ‚µ‚Ä‚ÍMS‚ÌƒGƒ“ƒWƒ“‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚æ‚¢‚©‚Ç‚¤‚©
-    –â‚¢‡‚í‚¹‚ÄAOK‚È‚ç‚Îƒlƒbƒgƒ[ƒN‰z‚µ‚Éƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚·‚éB
- (5) ƒfƒtƒHƒ‹ƒgƒCƒ“ƒXƒg[ƒ‹‚©ƒJƒXƒ^ƒ€ƒCƒ“ƒXƒg[ƒ‹‚©‚ð‘I‚ÔB
+ (1) ƒCƒ“ƒXƒg[ƒ‰‚ÌƒA[ƒJƒCƒu (bepwin01.exe)‚ð‰ð“€‚·‚é‚Æ
+     setup.exeAreadme.txtAmodulesƒfƒBƒŒƒNƒgƒŠ‚Ì‰º‚Ìƒ‚ƒWƒ…[ƒ‹ŒQ(‚·‚È‚í‚¿
+     Meadow-1.15...Abeplsp01.exeAwinss01.exeAbepetc01.exe)‚É“WŠJ‚³‚ê‚éB
+–â‘è“_F‚±‚Ìsetup.exe‚¾‚¯‚ðƒ[ƒJƒ‹‚É‚¨‚¢‚ÄA‚ ‚Æ‚Ísetup.exe‚ªƒlƒbƒgƒ[ƒN‰z‚µ
+     ‚É‚Æ‚Á‚Ä‚­‚é‚±‚Æ‚ª‚Å‚«‚é‚æ‚¤‚É‚à‚·‚é‚©?
+ (2) readme.txt‚ð•\Ž¦‚·‚éB‚±‚Ìƒtƒ@ƒCƒ‹‚Í‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
+    ‚±‚Ìƒtƒ@ƒCƒ‹‚Ì’†‚ÅBEP‚âEmacs‚ðI—¹‚µ‚Äì‹Æ‚·‚é‚æ‚¤‚É’m‚ç‚¹‚éB
+ (3) ƒ†[ƒU‚ªsetup.exe ‚ðŽÀs‚·‚éB
+ (4) ƒCƒ“ƒXƒg[ƒ‹‚©ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚©‚ð‘I‘ð‚³‚¹‚éB
+    ’ˆÓ; ƒCƒ“ƒXƒg[ƒ‰‚ÍŠeŽè‡‚ÅŒ³‚É–ß‚é‚±‚Æ‚ào—ˆ‚é‚æ‚¤‚É‚·‚éB
 
-ƒfƒtƒHƒ‹ƒgƒCƒ“ƒXƒg[ƒ‹‚Ìê‡F
- (6) Meadow‚Ì‰ŠúÝ’èƒtƒ@ƒCƒ‹‚È‚Ç‚ð’u‚­homeƒfƒBƒŒƒNƒgƒŠ‚ð‚Ç‚±‚É‚·‚é‚©‚ð
+8A)ƒCƒ“ƒXƒg[ƒ‹ì‹Æ‚Ìê‡
+ (1) SAPI 4‚ª“ü‚Á‚Ä‚¢‚é‚©‚Ç‚¤‚©Ž©“®“I‚ÉŠm”F‚·‚éB“ü‚Á‚Ä‚¢‚È‚¢ê‡‚ÍƒƒbƒZ[ƒW
+    ‚ðo‚·B‚Ü‚½ASAPI 4‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚æ‚¢‚©‚Ç‚¤‚©–â‚¢‡‚í‚¹‚ÄAOK‚È‚ç‚Î
+    ƒlƒbƒgƒ[ƒN‰z‚µ‚Éƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚·‚éB
+    spchapi.exe (825KB)‚ÌêŠF
+      http://activex.microsoft.com/activex/controls/sapi/spchapi.exe
+    SAPI 3‚ðŽg‚Á‚Ä‚¢‚éƒ†[ƒU‚ª‚¢‚é‚ªABEP‚ÍSAPI 4‚Å‚µ‚©“®‚©‚È‚¢B
+    SAPI 3‚ðŽg‚Á‚Ä‚¢‚éê‡‚ÍuBEP‚ðŽg‚¤‚É‚ÍSAPI4‚ª•K—v‚¾‚ªSAPI 4‚ð“ü‚ê‚é
+    ‚ÆŠù‘¶‚Ì‰¹º‡¬ŠÂ‹«‚É•s‹ï‡‚ªo‚é‰Â”\«‚ª‚ ‚év‚Æ‚¢‚¤ƒƒbƒZ[ƒW‚ð
+    o‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚ð’†Ž~‚·‚éB
+ (2) ‰¹º‡¬ƒGƒ“ƒWƒ“‚ÌŽí—Þ‚ðŠm”F‚·‚éB•K—v‚È‚à‚Ì‚ª“ü‚Á‚Ä‚¢‚È‚¢ê‡‚ÍƒƒbƒZ[ƒW
+    ‚ðo‚·B
+    E‰pŒêƒGƒ“ƒWƒ“‚ÉŠÖ‚µ‚Ä‚ÍMS‚ÌƒGƒ“ƒWƒ“‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚æ‚¢‚©‚Ç‚¤‚©
+     –â‚¢‡‚í‚¹‚ÄAOK‚È‚ç‚Îƒlƒbƒgƒ[ƒN‰z‚µ‚Éƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹‚·‚éB
+     msttsL.exe (7.3MB)‚ÌêŠF
+     http://download.microsoft.com/msdownload/sapi/4.0/rtw/4.0a/en/msttsL.EXE
+    E“ú–{ŒêƒGƒ“ƒWƒ“F¡‰ñ‚ÍProTalkerBˆÈ‰º‚ÌƒƒbƒZ[ƒW‚ðo‚·B
+ 
+          “ú–{Œê‰¹º‡¬ƒ‰ƒCƒuƒ‰ƒŠ‚Ì IBM ProTalker 97 ‚ÍAIBM ‚Ì¤•i 
+       (9800‰~) ‚Å‚·BProtalker 97 ‚ÍA‰¹º‡¬‚¾‚¯‚Ì’P‘Ì‚Ì¤•i‚Æ‚µ‚Ä
+       ƒpƒ\ƒRƒ“ƒVƒ‡ƒbƒv‚Åw“ü‚Å‚«‚Ü‚·B
+          IBM ‚Ìƒz[ƒ€ƒy[ƒWƒŠ[ƒ_[‚âAPC-Talker/VDM100W ‚ ‚é‚¢‚Í JAWS 
+       ‚È‚Ç‚Í“à•”“I‚É IBM ProTalker 97 ‚ðŽg—p‚µ‚Ä‚¢‚Ü‚·B‚µ‚½‚ª‚Á‚ÄA
+       ‚±‚ê‚ç‚Ìƒ\ƒtƒgƒEƒFƒA‚ªŠù‚ÉƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚éê‡‚ÍA“Á‚É‰½
+       ‚à‚µ‚È‚­‚Ä‚à BEP ‚Í“®ì‚µ‚Ü‚·B‚½‚¾‚µAƒ‰ƒCƒZƒ“ƒX‚ÌŠÖŒWã BEP 
+       —p‚É‚Í•Ê“r’P‘Ì”Å‚Ì ProTalker ‚ðw“ü‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+
+       [’ˆÓ] ‚·‚Å‚É ProTalker ‚ª“®ì‚µ‚Ä‚¢‚éŠÂ‹«‚ÅX‚É’P‘Ì”Å‚Ì 
+       ProTalker ‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é‚ÆAŠù‘¶‚ÌŠÂ‹«‚ª‚¨‚©‚µ‚­‚È‚é‰Â”\«
+       ‚ª‚ ‚è‚Ü‚·B•s–¾‚Ì“_‚Í BEP ƒ[ƒŠƒ“ƒOƒŠƒXƒg (‰º‹L) ‚Ü‚Å‚¨–â‚¢‡
+       ‚í‚¹‚­‚¾‚³‚¢B
+
+     ŽŸƒo[ƒWƒ‡ƒ“‚Å‚Í“ŒŽÅ‚âƒhƒLƒ…ƒƒ“ƒgƒg[ƒJ‚ðŽg‚¤—\’è‚¾‚ªA¡‰ñ‚Íl—¶‚µ‚È‚­
+     ‚Ä‚à‚æ‚¢B
+     
+ (3) ‚¨‚Ü‚©‚¹ƒCƒ“ƒXƒg[ƒ‹‚©•W€ƒCƒ“ƒXƒg[ƒ‹‚©ƒJƒXƒ^ƒ€ƒCƒ“ƒXƒg[ƒ‹‚©‚ð‘I‚ÔB
+   E‚¨‚Ü‚©‚¹ƒCƒ“ƒXƒg[ƒ‹Fƒ†[ƒU‚Í‰½‚àŽw’è‚Å‚«‚È‚¢B‚·‚×‚Ädefault‚Ìó‘Ô‚Å
+           ƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚éB
+   E•W€ƒCƒ“ƒXƒg[ƒ‹FƒCƒ“ƒXƒg[ƒ‹êŠ‚âhomeƒfƒBƒŒƒNƒgƒŠ‚ÌêŠ‚ð‘I‚×‚éB
+   EƒJƒXƒ^ƒ€ƒCƒ“ƒXƒg[ƒ‹Fˆê•”‚Ìƒ‚ƒWƒ…[ƒ‹‚¾‚¯‚ðƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚é‚ªA
+           Emacs‚Ì’mŽ¯‚ª‚È‚¢‚Æ‚¤‚Ü‚­“®‚©‚È‚¢‚±‚Æ‚ª‚ ‚é‚Ì‚Åƒ†[ƒU‚ÌÓ”C‚Å
+           ‚±‚ÌƒCƒ“ƒXƒg[ƒ‹‚ðs‚¤‚±‚ÆB
+
+8A1) ‚¨‚Ü‚©‚¹ƒCƒ“ƒXƒg[ƒ‹‚Ìê‡F
+ (1) HD‚Ì‹ó‚«—e—Ê•s‘«‚Ìê‡‚Í•s‘«—e—Ê‚ðŽ¦‚·ƒƒbƒZ[ƒW‚ðo‚µ‚Ä’âŽ~B
+ (2) ƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚éêŠ(C:\Meadow)‚âƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ‚ÌêŠ
+     (C:\Meadow\home)‚ð•\Ž¦‚µ‚ÄŠm”F‚ð‹‚ß‚éB
+ (3) ‚±‚Ì‚Q‚Â‚ÌƒfƒBƒŒƒNƒgƒŠ‚ðì‚éB
+ (4) Meadow‚ð“WŠJBBEP‚à“WŠJB“WŠJ‚·‚×‚«ƒtƒ@ƒCƒ‹‚Í‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
+ (5) Meadow‚ÌƒCƒ“ƒXƒg[ƒ‰‚Ìˆø”‚ÉhomeƒfƒBƒŒƒNƒgƒŠ‚ÌêŠ‚ð“n‚µ‚ÄA
+     Meadow‚ÌƒCƒ“ƒXƒg[ƒ‰‚ðŽÀsB
+ (6) I—¹ƒƒbƒZ[ƒW‚ð•\Ž¦B‚±‚Ìƒtƒ@ƒCƒ‹‚à‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
+
+8A2) •W€ƒCƒ“ƒXƒg[ƒ‹‚Ìê‡F
+ (1) Meadow‚Ì‰ŠúÝ’èƒtƒ@ƒCƒ‹‚È‚Ç‚ð’u‚­homeƒfƒBƒŒƒNƒgƒŠ‚ð‚Ç‚±‚É‚·‚é‚©‚ð
    ƒ†[ƒU‚É–â‚¢‡‚í‚¹‚éBdefault‚ÍMeadowƒfƒBƒŒƒNƒgƒŠ‚Ì‰º‚ÌhomeƒfƒBƒŒƒNƒgƒŠB
    ‚à‚µƒ†[ƒU‚ª”¼Šp‰p”Žš‚Æ‚¢‚­‚Â‚©‚Ì‹L†ˆÈŠO‚Ì•¶Žš‚ÅƒfƒBƒŒƒNƒgƒŠ‚ðŽw’è‚µ‚½‚çA
    BEP‚ª³í‚É“®ì‚µ‚È‚¢‰Â”\«‚ª‚ ‚é‚ÆŒ¾‚¤ƒƒbƒZ[ƒW‚ð•\Ž¦B
- (7) BEP‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚éêŠ(‚±‚ê‚ðMeadowƒfƒBƒŒƒNƒgƒŠ‚ÆŒÄ‚ÑA‚±‚Ì‰º‚É‚·‚×‚Ä‚Ì
+ (2) BEP‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚éêŠ(‚±‚ê‚ðMeadowƒfƒBƒŒƒNƒgƒŠ‚ÆŒÄ‚ÑA‚±‚Ì‰º‚É‚·‚×‚Ä‚Ì
     ƒ‚ƒWƒ…[ƒ‹‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚é)‚ð–â‚¢‡‚í‚¹‚éBdefault‚Í C:\MeadowB
    ‚à‚µƒ†[ƒU‚ªƒ‹[ƒgƒfƒBƒŒƒNƒgƒŠ‚ðŽw’è‚µ‚½‚çAƒ‹[ƒg‚Ì‰º‚ÉMeadow‚Æ‚¢‚¤–¼‚Ì
    ƒfƒBƒŒƒNƒgƒŠ‚ðì‚Á‚Ä‚»‚Ì‰º‚ÉƒCƒ“ƒXƒg[ƒ‹‚µ‚½•û‚ª‚æ‚¢‚Æ•\Ž¦B
    ‚à‚µƒ†[ƒU‚ª”¼Šp‰p”Žš‚Æ‚¢‚­‚Â‚©‚Ì‹L†ˆÈŠO‚Ì•¶Žš‚ÅƒfƒBƒŒƒNƒgƒŠ‚ðŽw’è‚µ‚½‚çA
    BEP‚ª³í‚É“®ì‚µ‚È‚¢‰Â”\«‚ª‚ ‚é‚ÆŒ¾‚¤ƒƒbƒZ[ƒW‚ð•\Ž¦B
- (8) HD‚Ì‹ó‚«—e—Ê•s‘«‚Ìê‡‚Í•s‘«—e—Ê‚ðŽ¦‚·ƒƒbƒZ[ƒW‚ðo‚µ‚Ä’âŽ~B
- (9) ‚±‚ÌƒfƒBƒŒƒNƒgƒŠ‚ðì‚éBhome‚ªdafault‚Ìê‡‚Í‚»‚ê‚àì‚éB
- (10) Meadow‚ð“WŠJBBEP‚à“WŠJB“WŠJ‚·‚×‚«ƒtƒ@ƒCƒ‹‚Í‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
- (11) Meadow‚ÌƒCƒ“ƒXƒg[ƒ‰‚Ìˆø”‚ÉhomeƒfƒBƒŒƒNƒgƒŠ‚ÌêŠ‚ð“n‚µ‚ÄA
+ (3) HD‚Ì‹ó‚«—e—Ê•s‘«‚Ìê‡‚Í•s‘«—e—Ê‚ðŽ¦‚·ƒƒbƒZ[ƒW‚ðo‚µ‚Ä’âŽ~B
+ (4) ‚±‚ÌƒfƒBƒŒƒNƒgƒŠ‚ðì‚éBhome‚ªdafault‚Ìê‡‚Í‚»‚ê‚àì‚éB
+ (5) Meadow‚ð“WŠJBBEP‚à“WŠJB“WŠJ‚·‚×‚«ƒtƒ@ƒCƒ‹‚Í‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
+ (6) Meadow‚ÌƒCƒ“ƒXƒg[ƒ‰‚Ìˆø”‚ÉhomeƒfƒBƒŒƒNƒgƒŠ‚ÌêŠ‚ð“n‚µ‚ÄA
      Meadow‚ÌƒCƒ“ƒXƒg[ƒ‰‚ðŽÀsB
- (12) I—¹ƒƒbƒZ[ƒW‚ð•\Ž¦B‚±‚Ìƒtƒ@ƒCƒ‹‚à‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
-–â‘è“_FELisp‚ðMeadowƒfƒBƒŒƒNƒgƒŠ‚Ì‰º‚Éì‚ç‚È‚¢ƒIƒvƒVƒ‡ƒ“‚ª•K—v‚©?
+ (7) I—¹ƒƒbƒZ[ƒW‚ð•\Ž¦B‚±‚Ìƒtƒ@ƒCƒ‹‚à‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
 
-ƒJƒXƒ^ƒ€ƒCƒ“ƒXƒg[ƒ‹‚Ìê‡F
- (6) ƒCƒ“ƒXƒg[ƒ‹‚·‚éƒ‚ƒWƒ…[ƒ‹‚ð‘I‘ð‚³‚¹‚éB
-  EMeadow‚Ìê‡‚ÍV‚µ‚¢Meadow‚ð“WŠJ‚µ‚Ä‚©‚çMeadow‚ÌƒCƒ“ƒXƒg[ƒ‰‚ðÄŽÀs‚·‚éB
-    ƒo[ƒWƒ‡ƒ“‚ªˆá‚¤Meadow‚ÍƒCƒ“ƒXƒg[ƒ‹‚·‚éêŠ‚àˆá‚¤‚©‚ç‹£‡‚·‚éS”z‚Í‚È‚¢B
-–â‘è“_Felisp‚Ìbyte-compile‚ð‚Ç‚¤‚·‚é‚©B
-  EWindowsSS‚Ìê‡‚ÍAŒÃ‚¢SS‚ðƒoƒbƒNƒAƒbƒv‚µ‚Ä‚©‚çV‚µ‚¢SS‚ðƒRƒs[‚·‚éB
-  EBEP Lisp‚Ìê‡‚ÍAŒÃ‚¢ƒo[ƒWƒ‡ƒ“‚ðƒoƒbƒNƒAƒbƒv(rename)‚µ‚Ä‚©‚çV‚µ‚¢ƒo[ƒWƒ‡ƒ“‚ð“WŠJ‚·‚éB
-  EhomeƒfƒBƒŒƒNƒgƒŠ‚Ì‰º‚Ìƒtƒ@ƒCƒ‹‚É‚ÍŽè‚ðG‚ê‚È‚¢B•ÏX‚à‚µ‚È‚¢B
- (7) ‚ ‚Æ‚Íã‹LƒfƒtƒHƒ‹ƒgƒCƒ“ƒXƒg[ƒ‹‚É€‚¶‚½ˆ—‚ð‚·‚éB
+8A3) ƒJƒXƒ^ƒ€ƒCƒ“ƒXƒg[ƒ‹‚Ìê‡F
+ (1) ƒCƒ“ƒXƒg[ƒ‹‚·‚éƒ‚ƒWƒ…[ƒ‹‚ð‘I‘ð‚³‚¹‚éB
+  EMeadow‚Ìê‡F
+    a) Meadow‚Ìƒo[ƒWƒ‡ƒ“‚ªˆá‚¤‚ÆƒoƒCƒgƒRƒ“ƒpƒCƒ‹‚³‚ê‚½LispƒpƒbƒP[ƒW‚ª“®‚©‚È‚­
+     ‚È‚é‰Â”\«‚ª‚ ‚é‚±‚Æ‚Æƒ†[ƒU‚ÌÓ”C‚Å‘Îˆ‚·‚é‚±‚Æ‚ðŒx‚·‚éB
+    b) homeƒfƒBƒŒƒNƒgƒŠ‚ÌêŠ‚ð–â‚¢‡‚í‚¹‚éBdefault‚Ì’l‚Æ‚µ‚ÄA‰ƒCƒ“ƒXƒg[ƒ‹
+     ‚¾‚Á‚½‚ç C:\Meadow\home ‚ð—^‚¦A‘O‚ÉƒCƒ“ƒXƒg[ƒ‹‚µ‚½‚±‚Æ‚ª‚ ‚éê‡‚Í
+     ‘O‰ñ‚Ì’l‚ð—^‚¦‚éB
+    c) Meadow‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚éêŠ‚ð–â‚¢‡‚í‚¹‚éBdefault‚Ì’l‚Æ‚µ‚ÄA
+     ‰ƒCƒ“ƒXƒg[ƒ‹‚¾‚Á‚½‚ç C:\MeadowAÄƒCƒ“ƒXƒg[ƒ‹‚¾‚Á‚½‚ç‘O‚ÌƒfƒBƒŒƒNƒgƒŠ‚ð
+     —^‚¦‚éB
+    d) HD‚Ì‹ó‚«—e—Ê•s‘«‚Ìê‡‚Í•s‘«—e—Ê‚ðŽ¦‚·ƒƒbƒZ[ƒW‚ðo‚µ‚Ä’âŽ~B
+    e) V‚µ‚¢Meadow‚ð“WŠJ‚·‚éB
+     ƒo[ƒWƒ‡ƒ“‚ªˆá‚¤Meadow‚ÍƒCƒ“ƒXƒg[ƒ‹‚·‚éêŠ‚àˆá‚¤‚©‚ç‹£‡‚·‚éS”z‚Í‚È‚¢B
+    f) b‚ÌhomeƒfƒBƒŒƒNƒgƒŠ‚Ì’l‚ðˆø”‚É—^‚¦‚ÄMeadow‚ÌƒCƒ“ƒXƒg[ƒ‰‚ðÄŽÀs‚·‚éB
+    g) ŒÃ‚¢Meadow‚ðÁ‚·‚©‚Ç‚¤‚©–â‚¢‡‚í‚¹‚Ä‚»‚ê‚É‰ž‚¶‚½ˆ—‚ð‚·‚éB
 
-9) ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹F
+  EBEP Lisp‚Ìê‡F
+    a) ‚±‚ÌLispƒpƒbƒP[ƒW‚ðƒoƒCƒgƒRƒ“ƒpƒCƒ‹‚µ‚½Meadow‚ÆAƒ†[ƒU‚ªŽg‚Á‚Ä‚¢‚é
+     Meadow‚Ìƒo[ƒWƒ‡ƒ“‚ªˆá‚¤ê‡AƒoƒCƒgƒRƒ“ƒpƒCƒ‹‚³‚ê‚½BEPƒpƒbƒP[ƒW‚ª
+     “®‚©‚È‚­‚È‚é‰Â”\«‚ª‚ ‚é‚±‚Æ‚Æƒ†[ƒU‚ÌÓ”C‚Å‘Îˆ‚·‚é‚±‚Æ‚ðŒx‚·‚éB
+    b) ‚Ç‚±‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚é‚©–â‚¢‡‚í‚¹‚éBdefault‚Ì’l‚Æ‚µ‚ÄA
+     ‰ƒCƒ“ƒXƒg[ƒ‹‚¾‚Á‚½‚ç C:\Meadow\site-lisp\emacspeakA
+     ÄƒCƒ“ƒXƒg[ƒ‹‚¾‚Á‚½‚ç‘O‚ÌƒfƒBƒŒƒNƒgƒŠ‚ð—^‚¦‚éB
+    c) ŒÃ‚¢Lisp‚ðƒoƒbƒNƒAƒbƒv‚·‚éB(ƒfƒCƒŒƒNƒgƒŠ‚Ì–¼‘O‚ð emacspeak-bak1‚Ì
+     ‚æ‚¤‚Èƒ†ƒj[ƒN‚È–¼‘O‚É•Ï‚¦‚é)
+    d) HD‚Ì‹ó‚«—e—Ê•s‘«‚Ìê‡‚Í•s‘«—e—Ê‚ðŽ¦‚·ƒƒbƒZ[ƒW‚ðo‚µ‚Ä’âŽ~B
+    e) BEP Lisp‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚éB
+
+  EWindowsSS‚Ìê‡F
+    a) HD‚Ì‹ó‚«—e—Ê•s‘«‚Ìê‡‚Í•s‘«—e—Ê‚ðŽ¦‚·ƒƒbƒZ[ƒW‚ðo‚µ‚Ä’âŽ~B
+    b) ‰ƒCƒ“ƒXƒg[ƒ‹‚Ìê‡AMeadow‚ð’T‚µ‚Ä‚±‚ÌMeadow‚Å‚æ‚¢‚©ƒ†[ƒU‚É–â‚¢‡‚í
+      ‚¹‚éB‚»‚µ‚Ä‚»‚ÌMeadow‚ÌbinƒfƒBƒŒƒNƒgƒŠ‚Ì‰º‚ÉƒCƒ“ƒXƒg[ƒ‹‚·‚éB
+      ‚»‚¤‚Å‚È‚¢ê‡AŒÃ‚¢SS‚ðƒoƒbƒNƒAƒbƒv(.bak0 ‚Æ‚¢‚¤ƒ†ƒj[ƒN‚È”Ô†‚ð‚Â‚¯‚é)
+      ‚µ‚Ä‚©‚çV‚µ‚¢SS‚ðƒRƒs[‚·‚éB
+      
+ (2) I—¹ƒƒbƒZ[ƒW‚ðo‚·B‚±‚ÌƒƒbƒZ[ƒW‚à‚±‚¿‚ç‚Å—pˆÓ‚·‚éB
+ 
+8B) ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚Ìê‡F
  (1) ‘S•”Á‚·‚Ì‚©ŒÂ•Ê‚ÉÁ‚·‚Ì‚©q‚Ë‚éB
-‘S•”Á‚·ê‡F
-  EƒCƒ“ƒXƒg[ƒ‹Žž‚ÉŽw’è‚µ‚½ƒfƒBƒŒƒNƒgƒŠˆÈ‰º‚Ìƒtƒ@ƒCƒ‹‚ðÁ‚·B
-    ‚½‚¾‚µ home ‚Ì‰º‚ÍŽc‚·B‚Ü‚½‚»‚ÌŽ|‚ð•\Ž¦‚·‚éB
-  EƒŒƒWƒXƒgƒŠ‚àƒ`ƒFƒbƒN‚µ‚ÄMeadow‚ÌƒŒƒWƒXƒgƒŠ‚ªŽc‚Á‚Ä‚¢‚½‚çÁ‚·B
-ŒÂ•Ê‚ÉÁ‚·ê‡F
+
+8B1) ‘S•”Á‚·ê‡F
+ (1) MeadowABEP Elisp‚ðAƒCƒ“ƒXƒg[ƒ‹‚µ‚½ƒfƒBƒŒƒNƒgƒŠ‚²‚ÆÁ‚·B
+    ‚½‚¾‚µ home ‚Ì‰º‚¾‚¯‚ÍŽc‚µ‚ÄA‚»‚ÌŽ|‚ð•\Ž¦‚·‚éB
+ (2) ƒŒƒWƒXƒgƒŠ‚àƒ`ƒFƒbƒN‚µ‚ÄMeadow‚ÌƒŒƒWƒXƒgƒŠ‚ªŽc‚Á‚Ä‚¢‚½‚çÁ‚·B
+    ‚Æ‚É‚©‚­homeƒfƒBƒŒƒNƒgƒŠˆÈŠO‚ÍˆêØ‚Ì­Õ‚ðŽc‚³‚È‚¢B
+
+8B2) ŒÂ•Ê‚ÉÁ‚·ê‡F
    ã‹Lˆ—‚É€‚¸‚éB
 
+9) ƒCƒ“ƒXƒg[ƒ‰‚Í‘O‰ñƒCƒ“ƒXƒg[ƒ‹‚µ‚½ƒ‚ƒWƒ…[ƒ‹‚Ì–¼‘O‚ÆƒCƒ“ƒXƒg[ƒ‹‚µ‚½êŠ‚Æ
+  homeƒfƒBƒŒƒNƒgƒŠ‚ÌêŠ‚ð‚Ç‚±‚©‚É‘‚«ž‚ñ‚Å‚¨‚­B‚±‚Ì’l‚ðƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚â
+  ƒJƒXƒ^ƒ€ƒCƒ“ƒXƒg[ƒ‹Žž‚Ìã‘‚«‚Ì‰Â”Û‚É—˜—p‚·‚éB
+  
 -------------------------------------------------------------------------
 ŽQl‚Ü‚Å‚ÉBEP‚Ì“®ìŒ´—‚âEmacs‚ÌŠî‘b’mŽ¯‚ð‘‚¢‚Ä‚¨‚«‚Ü‚·B
 ‚²‘¶’m‚Ì‚±‚Æ‚à‘½‚¢‚ÆŽv‚¢‚Ü‚·‚ª”O‚Ì‚½‚ßB
@@ -150,19 +245,20 @@ Emacs‚ª–Ê”’‚¢‚Æ‚¢‚¤‚©A‚‹@”\‚È‚Ì‚ÍELisp‚Å‘‚©‚ê‚½ƒpƒbƒP[ƒW‚ð—p‚¢‚Ä‹@”\‚ðŠg’£‚Å
 
 1.5 ƒfƒBƒŒƒNƒgƒŠ\¬
 
-¡‚ÌEmacs‚ÌƒfƒBƒŒƒNƒgƒŠ\¬‚ð‘‚­‚Æ
+¡‰ñ‚Ì•W€ƒfƒBƒŒƒNƒgƒŠ\¬‚ÍA
 
-Meadow\1.15\            1.15‚Íƒo[ƒWƒ‡ƒ“–¼‚Å‚·B
-            bin\        Speak.exe‚È‚Ç‚ÌŽÀsŒ`Ž®‚ð’u‚­êŠ
-            etc\        ‚»‚Ì‘¼‚Ìƒtƒ@ƒCƒ‹
-            lisp\       Emacs–{‘Ì‚ÌELispƒtƒ@ƒCƒ‹
-            site-lisp\  Emacs‚Ìƒo[ƒWƒ‡ƒ“‚ÉˆË‘¶‚·‚éƒpƒbƒP[ƒW‚ð’u‚­êŠ
-            info\       info ‚Æ‚¢‚¤UnixŒ`Ž®‚Ìƒ}ƒjƒ…ƒAƒ‹‚Ì’u‚«êŠ
+(C:\ ‚Ì’¼‰º‚É)
+ Meadow\1.15\            1.15‚Íƒo[ƒWƒ‡ƒ“–¼‚Å‚·B
+             bin\        ƒ ‚±‚±‚ª Speak.exe ‚Ì’u‚«êŠ
+             etc\        ‚»‚Ì‘¼‚Ìƒtƒ@ƒCƒ‹
+             lisp\       Emacs–{‘Ì‚ÌELispƒtƒ@ƒCƒ‹
+             site-lisp\  Emacs‚Ìƒo[ƒWƒ‡ƒ“‚ÉˆË‘¶‚·‚éƒpƒbƒP[ƒW‚ð’u‚­êŠ
+             info\       info ‚Æ‚¢‚¤UnixŒ`Ž®‚Ìƒ}ƒjƒ…ƒAƒ‹‚Ì’u‚«êŠ
             
-       site-lisp\       Emacs‚Ìƒo[ƒWƒ‡ƒ“‚ÉˆË‘¶‚µ‚È‚¢ƒpƒbƒP[ƒW‚ð’u‚­êŠ
-                 emacspeak\
-                 mew\
-                 w3m\
+        site-lisp\       Emacs‚Ìƒo[ƒWƒ‡ƒ“‚ÉˆË‘¶‚µ‚È‚¢ƒpƒbƒP[ƒW‚ð’u‚­êŠ
+                  emacspeak\ ƒ ‚±‚±‚ª BEP Elisp‚Ì’u‚«êŠ
+                  mew\ (‚±‚ê‚Í“ü‚Á‚Ä‚¢‚È‚¢)
+                  w3m\ (‚±‚ê‚à“ü‚Á‚Ä‚¢‚È‚¢)
 
 ‚Æ‚¢‚¤•—‚É‚È‚Á‚Ä‚¢‚Ü‚·B
 ¡‰ñ‚Ìdefault‚Í C:\Meadow ˆÈ‰º‚Éƒtƒ@ƒCƒ‹‚ð’u‚­‚Â‚à‚è‚Å‚·B
@@ -179,7 +275,7 @@ Unix‚Ìê‡‚ÍƒƒOƒCƒ“ƒfƒBƒŒƒNƒgƒŠ‚ªƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ‚Å‚·‚ªWindows‚É‚Í‚»‚¤‚¢‚¤ŠT”
 Meadow‚ÌƒCƒ“ƒXƒg[ƒ‹‚Í‚Æ‚Á‚Ä‚àŠÈ’P‚ÅAMeadow‚Ì”z•zƒtƒ@ƒCƒ‹‚ð“WŠJ‚µ‚½ŒãA
 Meadow\1.15\install.exe ‚ðŽÀs‚·‚é‚¾‚¯‚Å‚·B‚±‚ÌƒCƒ“ƒXƒg[ƒ‰‚ÍhomeƒfƒBƒŒƒNƒgƒŠ‚ÌÝ’è‚Ædump‚Æ‚¢‚¤ì‹Æ‚ðs‚¢‚Ü‚·Binstall.exe‚ÌƒRƒ}ƒ“ƒhˆø”‚Åƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ‚ÌêŠ‚ðŽw’è‚Å‚«‚Ü‚·B‚¿‚È‚Ý‚ÉŠÂ‹«•Ï”home‚ªÝ’è‚³‚ê‚Ä‚¢‚ê‚ÎAMeadow‚Í‚»‚ê‚ðŒŸo‚µ‚Ä‚»‚ÌêŠ‚ðMeadow‚Ìƒz[ƒ€ƒfƒBƒŒƒNƒgƒŠ‚É‚µ‚Ü‚·B‚»‚µ‚Ä‚»‚Ì’l‚ðƒŒƒWƒXƒgƒŠ‚É‘‚«ž‚Ý‚Ü‚·B
 
-Meadow‚Í“Á•Ê‚ÈDLL‚ð•Ê‚É•K—v‚Æ‚µ‚È‚¢‚Í‚¸‚Å‚·B
+Meadow‚Í“Á•Ê‚ÈDLL‚ð•Ê‚É•K—v‚Æ‚µ‚Ü‚¹‚ñB
 
 1.7 BEP‚ÌƒCƒ“ƒXƒg[ƒ‹
 
