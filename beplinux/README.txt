@@ -1,8 +1,8 @@
-Bilingual Emacspeak Platform - Release 20020214(Based on Emacspeak 16.0)
+Bilingual Emacspeak Platform - Release 03(Based on Emacspeak 16.0)
 Copyright (C) 1999-2002 Bilingual Emacspeak Project
 Documented by: Koichi INOUE <inoue@argv.org>
-最終更新日:$Date: 2002/05/10 14:29:03 $
-$Revision: 1.8 $
+最終更新日:$Date: 2002/06/06 14:12:16 $
+$Revision: 1.9 $
 
 
 目次
@@ -10,9 +10,10 @@ $Revision: 1.8 $
 0. 本パッケージについて
 1. Bilingual Emacspeak Platformとは？
 2. インストール
-3. 参考資料
-4. 配布条件
-5. 連絡先等
+3. バイリンガル機能について
+4. 参考資料
+5. 配布条件
+6. 連絡先等
 
 
 0. 本パッケージについて
@@ -111,7 +112,62 @@ M-x load-bemacspeak
 という音声も同時に流れます。
 
 
-3. 参考資料
+3. バイリンガル機能について
+
+BEPでは日本語TTSと英語TTSを切り替えながら文章やメッセージを読み上げるこ
+とができます。
+
+3.1 バイリンガルモード
+
+現在、以下の三つのバイリンガルモードが用意されています。
+
+  (1)Native English Mode
+  半角英数記号はすべて英語TTSで、それ以外はすべて日本語TTSで読み上げるモー
+  ドです。英語を扱うことが種目的な場合、半角と全角の英数記号をはっきり区
+  別したい場合に利用します。
+
+  (2) Adaptive English Mode
+  まとまった量の英数字は英語TTSで、それ以外は日本語TTSで読み上げるモード
+  です。短い英数字は日本語の一部としてカタカナ読みされます。
+  日本語が主な文章をなめらかに聞きたい場合に利用します。デフォルトはこの
+  モードになっています。
+
+  (3) Katakana English Mode
+  可能な限り日本語TTSで読み上げるモードです。
+  プログラムの編集など、バイリンガルであることより確実に聞き取れることを
+  優先したい場合に利用します。
+
+3.2 バイリンガルモードの切り替え
+
+BEPでは三つのバイリンガルモードを切り替えるために以下のコマンドを追加
+しています。
+
+    M-x emacspeak-m17n-ja-change-strategy
+    キー: C-e x m s
+
+C-e x m sと入力すると、バイリンガルモードを選ぶための質問が表示されます。
+Nativeならn、Adaptiveならa、Katakanaならkを入力すると、バイリンガルモー
+ドが切り替わり、「Use Katakana English Mode locally」のように発声します。
+(これはkを押した場合です。)
+
+locallyという言葉が示すように、上のコマンドで切り替わるのはその時にアク
+ティブなバッファのバイリンガルモードです。もしすべてのバッファのデフォル
+トとEmacsが出すメッセージも含めて切り替えたい場合は最初にC-uをつけます。
+つまり、C-u C-e x m sとします。
+そして選びたいモードの文字を入力すると、「Use Katakana English Mode」の
+ように発声して切り替わります。
+
+.emacsで指定する場合は、以下のようにしてください。
+
+    (emacspeak-m17n-ja-change-strategy ?k t)
+
+上記はKatakana English Modeをデフォルトにする記述です。第１引数には対応
+する文字の前に?をつけて、「?n」「?a」「?k」のように指定します。
+デフォルト値を変更するために、第２引数は必ずtを指定してください。
+また、上記の記述はBEPがロードされた後に動作するように記述してください。
+
+
+4. 参考資料
 
 Emacs/MeadowとBEPの使い方を学ぶのに役に立ちそうな Web を紹介します。
 
@@ -139,14 +195,14 @@ Emacs/MeadowとBEPの使い方を学ぶのに役に立ちそうな Web を紹介します。
     なるかもしれません。
 
 
-4. 配布条件
+5. 配布条件
 
 本ソフトウェアの配布はGNU Emacsと同じく、GPL(GNU General Public License)
 のVersion 2またはそれ以降に従います。
 詳しくは同梱のCOPYINGを参照してください。
 
 
-5. 連絡先等
+6. 連絡先等
 
 Bilingual Emacspeak Projectに関する情報は
 http://www.argv.org/bep/
