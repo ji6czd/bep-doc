@@ -1,8 +1,8 @@
 Bilingual Emacspeak Platform - Release 04(Based on Emacspeak 16.0)
 Copyright (C) 1999-2003 Bilingual Emacspeak Project
 Documented by: Koichi INOUE <inoue@argv.org>
-最終更新日:$Date: 2003/10/26 19:00:33 $
-$Revision: 1.11 $
+最終更新日:$Date: 2005/09/27 16:41:58 $
+$Revision: 1.12 $
 
 
 目次
@@ -126,7 +126,7 @@ BEPのインストール先を変更したい場合は、prefix=で指定します。たとえば
 2.4 BEPの起動
 
 Emacsを起動し、
-M-x load-bemacspeak
+M-x bep
 と入力すると起動します。
 英語で以下のような起動メッセージをしゃべったら成功です。
 「Press C-h C-e to get an   overview of emacspeak  16.0.
